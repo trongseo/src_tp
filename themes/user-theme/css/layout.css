@@ -1,0 +1,154 @@
+body{font-family:Arial, Helvetica, sans-serif; font-size:9pt; background:#E6E9EF url('../images/bg-body.gif') repeat-x; min-width:900px}
+.left{float: left;}
+.right{float:right}
+.clear{clear: both;}
+a{text-decoration:none; color:#0066CC}
+a:hover{color:#004C25}
+h3{color:#0066CC; font-size:11pt}
+h2{color:#0E8F0E; font-size:11pt}
+
+/*layout*/
+#wapper{}
+#header{padding:5px 10px;position:relative;top:0;left:0}
+#header .logo{position:relative; top:0; left:0}
+#header .logo strong{color: #0160A5; font-size: 10pt; font-family: verdana}
+#header .frmlogin{position:absolute;top:15px;right:10px}
+#header .frmlogin  a {color:#005b8c; font-weight:bold; margin-left:10px}
+#header .frmlogin .register{background:url('../images/icon-register.png') no-repeat left top; padding-left:20px}
+#header .frmlogin .login{background:url('../images/icon-login.png') no-repeat left top; padding-left:20px}
+
+/* Common */
+.paddinglr10{padding:0 10px}
+/* Colum */
+.menu-bar{float:left; width:22%; *width:21.7%}
+.contenter{float:left; width:78%; line-height:18px; text-align: justify; position:relative}
+.content{margin-left:1%; background:#fff; margin-bottom:0.8em; padding:0.3em; border:1px solid #ddd; -moz-border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 2px;border-radius: 2px; -moz-box-shadow: 2px 2px #ccc; -webkit-box-shadow:2px 2px #ccc; box-shadow: 2px 2px #ccc;}
+
+#catmenu{background:#fff; padding:4px; width:98%; margin-bottom:0.8em; border-right:1px solid #ccc; -moz-box-shadow: 0 0 5px #999; -webkit-box-shadow: 0 0 5px #999;  box-shadow: 0 0 5px #999}
+
+ul.menu-li{list-style:none; margin:5px 0 5px 0; padding:0}
+ul.menu-li li{padding:0; cursor:pointer}
+ul.menu-li li a:hover{background: #5184D2; color:#fff; text-decoration:none}
+ul.menu-li li a{padding:5px 10px; font-weight:bold; display: block}
+ul.menu-li li ul{margin: 0; padding: 2px 0; background: #E1E3EC}
+ul.menu-li li ul li{background: none; padding: 0; margin-left: 30px}
+ul.menu-li li ul li a{padding: 6px 0;display: block; color:#002E5C}
+ul.menu-li li ul li a:hover{background: none; color:#DA821B}
+
+/* static */
+.col-center{width:73.1%}
+.col-center h3{margin:0 5px}
+.col-center ul{margin: 5px 8px 5px 5px; padding:5px 0; background: #E8E8E8 url(../images/gradient-list_bg.png) repeat-x; border: 1px solid #ccc}
+.col-center ul li{margin-left:23px; font-size:10pt}
+.col-center span{font-size:8pt; color:#999}
+
+.left-col{float: left; width: 49.9%; margin-top:10px}
+.left-col ul{margin: 5px 8px 5px 5px; padding:5px 0; background: #E8E8E8 url(../images/gradient-list_bg.png) repeat-x; border: 1px solid #ccc}
+.left-col ul li{margin-left:23px}
+.left-col ul li a{display:block}
+.left-col h3{margin:0 5px}
+.col-right{margin-left:10px; width:25%}
+
+.panel-title{border:1px solid #ccc; margin-bottom:1em}
+.panel-title h2{color:#fff; padding:3px 5px; font-weight:bold; background:#008844}
+.panel-title ul{margin:5px 10px; padding:0; margin-left:25px}
+.panel-title ul li{list-style-type:square; font-size:10pt; text-align: left; padding:2px 0}
+.panel-title ul li a{display: block;}
+
+/* Footer */
+#footer{margin-left:1%; background:#fff; padding:7px 0;border:1px solid #ddd; -moz-border-radius: 3px; -webkit-border-radius: 3px;margin-bottom:1em}
+#footer p{padding: 0 10px}
+
+/* Menu */
+ul#tabs{margin:0 10px;padding:5px 10px 0 5px;list-style:none; overflow:hidden; background:#008844; margin-bottom:8px; height:29px;-webkit-border-radius:3px; -moz-border-radius:3px}
+ul#tabs li {display:inline}
+ul#tabs a {float:left;background:url(../images/left.png) no-repeat left top;margin:0;padding:0 0 0 6px; text-decoration:none; margin-left:3px}
+ul#tabs a span {float:left;display:block;	background:url(../images/right.png) no-repeat right top; padding:6px 15px 9px 6px; margin-right:2px;	color:#FFF}
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+ul#tabs a span {float:none;}
+/* End IE5-Mac hack */
+ul#tabs a:hover {background-position:0% -42px}
+ul#tabs a:hover span {background-position:100% -42px}
+ul#tabs .select {background-position:0% -42px;}
+ul#tabs .select span{background-position:100% -42px; color:#fff; font-weight:bold}
+
+legend{color:#0066CC; font-weight:bold; font-size:11pt}
+fieldset{padding:15px; border : 1px solid #E4E3E3; background:#F9F9FB; -moz-border-radius:3px; -webkit-border-radius:3px; margin:5px}
+fieldset p{clear: both; margin: 4px auto; padding-bottom: 0}
+fieldset label{float:left; width:105px; padding:3px}
+fieldset label.remove{float: none}
+fieldset input.login {cursor:pointer; width:80px; height:24px; color:#fff; border:1px solid #ccc; background:#3A6AAD; -moz-border-radius: 3px; -webkit-border-radius: 3px; display:inline; margin-right:6px}
+fieldset input.login:hover, .login-a:hover{background:#5184D2}
+fieldset textarea{-moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; width:55.5%; padding:1px 3px}
+fieldset select{border:1px solid #ccc; padding:3px; cursor:pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px; width:220px}
+fieldset .fileupload{width:30%}
+fieldset .fileupload-img{margin-left: 111px}
+fieldset .login-a {cursor:pointer; width:80px; height:24px; color:#fff; border:1px solid #ccc; background:#3A6AAD; -moz-border-radius: 3px; -webkit-border-radius: 3px; display:inline; margin-right:6px; padding:3px 18px 4px 18px}
+fieldset .login-a:hover{text-decoration:none}
+
+fieldset .txt-tiny{width:50px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-small{width:90px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-small-x{width:250px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-very-tiny{width:22px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-large{width:210px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-large-x{width:40%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+fieldset .txt-very-large{width:55%; -moz-border-radius: 3px; -webkit-border-radius: 3px; border:1px solid #ccc; padding:3px;}
+
+fieldset .select-100{width: 100px;}
+fieldset .select-130{width: 130px;}
+
+.col1{float: left; width:15%}
+.col2{float: left; width:85%}
+.space{height: 8px;}
+.radio label{float: none; cursor: pointer;}
+
+span.required, .errorMessage{color: red;}
+
+/* Error */
+.errorSummary{border: 1px solid #FA8C1E; padding:2px 0; -moz-border-radius: 2px; -webkit-border-radius: 2px; margin:5px}
+.errorSummary ul{margin:0 32px; padding:0}
+.errorSummary ul li{padding:2px 0; color: red}
+
+/* modals */
+ul.modals {float:left; list-style:none; padding:0; margin:0; margin-bottom:5px;}
+ul.modals li {float:left; display:inline; width:90px; height:90px; background:#E1E3EC; padding:5px; text-align:center; margin:0 15px 5px 0; -moz-border-radius:5px; -webkit-border-radius:5px;}
+ul.modals li a {width:90px; height:90px; text-align:center; color: #333; font-weight: bold;}
+ul.modals li a:hover{color: #DB3E11;}
+ul.modals li a img {float:left; display:inline; width:48px; height:48px; margin-left:21px; margin-top:8px; margin-bottom:4px;}
+
+/* table format */
+table{border-collapse : separate; border-spacing : 0;}
+caption, th, td {text-align : left; font-weight : normal;}
+table, td, th {vertical-align : middle;}
+table {width : 100%; border : 1px solid #ccc;} 
+table table{border:0!important;}
+thead tr th {font-weight : bold; background :#E1E3EC; border-bottom : 1px solid #C6C6C6; padding : 5px; font-size:10pt}
+thead tr th a{color: #000}
+thead tr th a:hover{color: #3A6AAD} 
+tbody tr td {padding : 6px 5px; background : #fff; color : #111; cursor: pointer}
+tbody tr.alt td {background : #eee}
+tbody tr.disable td{background: #F9F5F5; color : #aaa}
+tbody tr td a{color: #000}
+tbody tr td a:hover{color: #1E335F;}
+tbody tr.red td{background: #f3c1c1; color : #aaa}
+tbody tr.red td a{color : #aaa}
+tbody tr.green td, tbody tr.green a{background: #c2ecb7; color : #aaa}
+
+.control-button{width: auto; float: left; margin: 6px 0;}
+.control-button input{background: none; border: none; cursor: pointer; color: #3A66DD; font-size: 10pt; padding-right:7px}
+.control-button input:hover{color: #333}
+.control-button a{padding-right:15px}
+
+.txt60{width: 60px}
+.txt15{width: 15px}
+.txt-sort{width:35px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border:1px solid #ccc; padding:1px 3px; text-align: center;}
+
+/* paging */
+ul.paging{float: right; margin-top: 7px; margin-bottom: 5px}
+
+.img-marginb5{margin-bottom: 5px}
+.img-marginb5 label{cursor: pointer}
+.img-marginb5 img{border:1px solid #ddd; padding:2px; width: 150px}
+
+.choose-business{display: block; clear: both}
+.choose-business label{width: 200px}

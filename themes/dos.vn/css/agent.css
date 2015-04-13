@@ -1,0 +1,14 @@
+body{font-family: arial; font-size: 9pt}
+a{text-decoration: none; color: #37749E}
+select{cursor: pointer}
+table {border-collapse : collapse; border-spacing : 0;}
+caption, th, td {text-align : left; font-weight : normal;}
+table, td, th {vertical-align : middle;}
+table {width : 100%; border : 1px solid #ccc;}
+table table {border:0!important;}
+thead tr th {font-weight : bold; background : #252525; padding : 3px 5px; border-bottom : 1px solid #ccc; color: #fff}
+tbody tr {cursor: pointer;}
+tbody tr:hover{background: #eee;}
+tbody tr td {padding : 4px 5px; color : #333}
+tbody tr.alt td {background : #272727}
+#loadContent{margin-top: 7px}

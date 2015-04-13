@@ -1,0 +1,33 @@
+.input_field label {display : block; width : 120px; float : left; position : relative; padding-right : 25px; top:5px; font-size: 11pt}
+.input_field .smallfield2{width: 100px;cursor:pointer}
+.input_field .smallfield3{width: 124px;cursor:pointer}
+.input_field .login{width: 80px; padding: 2px; margin-left: 15px; cursor: pointer}
+.input_field .login1{width: 80px; padding: 2px; margin-left: 2px; cursor: pointer}
+.input_field select{width: 182px; padding: 5px 6px; cursor: pointer; background: #F8F7F3; border-color: #E4E3E3; border-width:3px; border-style:double; color: #333; font-size: 10pt; font-weight: bold}
+.input_field select.large{width: 367px}
+
+#scrollbar{height:217px; padding:10px 0; overflow-x: auto; overflow-y: hidden}
+#scrollbar ul {padding:0 10px}
+#scrollbar ul li{float: left; width: 260px; margin-right: 31px; list-style: none; text-align: center; position: relative}
+#scrollbar ul li img{margin-right: 10px; margin-bottom: 3px; border: 1px solid #ddd; padding: 1px; -webkit-border-radius:2px;-moz-border-radius:2px}
+#scrollbar ul li label, #scrollbar ul li p input{cursor: pointer}
+
+input.smallfield {width : 350px; padding: 6px; background: #F8F7F3; border-color: #E4E3E3; border-width:3px; border-style:double; color: #333; font-size: 10pt; font-weight: bold}
+input.smallfield-tiny {width : 165px}
+input.smallfield-name {width : 303px; padding: 6px; padding-right: 0; background: #F8F7F3; border-color: #E4E3E3; border-width:3px; border-style:double; color: #333; text-align: right; border-right:none; font-size: 10pt; font-weight: bold}
+input.smallfield-dos {padding: 6px 0;  padding-right: 0; background: #F8F7F3; border-color: #E4E3E3; border-width:3px; border-style:double; color: #333; width: 53px; border-left:none; font-size: 10pt; font-weight: bold}
+#choose-agent{color: #356D95; font-style: italic; margin-left: 8px}
+#choose-agent:hover{color: #333}
+
+.border-image{width: 865px; margin: 15px 0 0 31px; border: 1px solid #D7D3C4; background: #F7F6F2;}
+.border-image .border-heading{background: #252525; padding:7px 10px; color: #fff}
+
+.submit{margin-left: 350px; margin-top:12px;background:#63C600; cursor:pointer;font-weight:600;width:auto;font-size:19pt;color:#fff;border:none; -webkit-border-radius:4px; -moz-border-radius:4px;*_width:190px; padding:2px 10px}
+.submit:hover{background:#f90}
+
+.skip{background:#0095E2;cursor:pointer;font-weight:600;width:auto;font-size:19pt;color:#fff; -webkit-border-radius:4px; -moz-border-radius:4px; *_width:190px; padding:2px 10px 3px }
+.skip:hover{background:#0083C1; color:#fff}
+.errorImport{margin: 5px 32px 0 32px}
+
+#scrollbar ul li .hover{display: none; position: absolute; left: 1px; bottom: 23px; z-index: 2; background: #fff; width: 257px; padding: 3px 0 0 5px; text-align: right; border-top:1px solid #eee}
+#scrollbar ul li .hover img{border: none; margin-right: 3px}

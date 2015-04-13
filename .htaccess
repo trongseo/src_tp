@@ -1,0 +1,23 @@
+RewriteEngine on
+
+# Rewrite to correct domain to avoid canonicalization problems
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+#begin...
+#RewriteCond %{HTTP_HOST} ^(.*)\.dos\.vn$ [NC]
+#RewriteRule ^(.*) http://%1.com/$1 [L,R]
+
+#RewriteCond %{HTTP_HOST} ^(.*)\.com$ [NC]
+#RewriteCond %{REQUEST_URI} !^(.*)\.com$ [NC]
+#RewriteRule ^(.*) http://%1.dos.vn/$1 [L,R]
+#end...
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+RewriteRule . index.php
+RewriteRule ^(.*) dos_webacb/index.php/$1 [QSA,L]

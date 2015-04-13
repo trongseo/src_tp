@@ -1,0 +1,202 @@
+/*******************************Calendar Top Navigation*********************************/
+div#calendar{
+    margin:0px auto;
+    padding:0px;
+    width:364px;
+    font-family:Helvetica, "Times New Roman", Times, serif;
+}
+
+div#calendar div.box{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:20px;
+    background-color:   #787878 ;
+}
+
+div#calendar div.header{
+    line-height:20px;
+    vertical-align:middle;
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:300px;
+    height:20px;
+    text-align:center;
+}
+
+div#calendar div.header a.prev,div#calendar div.header a.next{
+    position:absolute;
+    top:0px;
+    height: 9px;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    color:#FFF;
+}
+
+div#calendar div.header span.title{
+    color:#FFF;
+    font-size:9px;
+}
+
+
+div#calendar div.header a.prev{
+    left:250px;
+}
+
+div#calendar div.header a.next{
+    right:0px;
+}
+
+
+
+
+/*******************************Calendar Content Cells*********************************/
+div#calendar div.box-content{
+    /*border:1px solid #787878 ;*/
+    /*border-top: solid 1px #787878 !important;*/
+}
+
+
+
+div#calendar ul.label{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-top:5px;
+    margin-left: 5px;
+}
+
+div#calendar ul.label li{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    float:left;
+    list-style-type:none;
+    width:40px;
+    height:20px;
+    line-height:20px;
+    vertical-align:middle;
+    text-align:center;
+    color:#000;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+
+div#calendar ul.dates{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+/** overall width = width+padding-right**/
+div#calendar ul.dates li{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    margin-top: 5px;
+    line-height:40px;
+    vertical-align:middle;
+    float:left;
+    list-style-type:none;
+    width:40px;
+    height:40px;
+    font-size:12px;
+    background-color: #DDD;
+    color:#000;
+    text-align:center;
+}
+
+:focus{
+    outline:none;
+}
+
+div.clear{
+    clear:both;
+}
+
+div#calendar ul.dates li.end{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    margin-top: 5px;
+    line-height:40px;
+    vertical-align:middle;
+    float:left;
+    list-style-type:none;
+    width:40px;
+    height:40px;
+    font-size:12px;
+    background-color: #DDD;
+    color:red;
+    text-align:center;
+}
+
+div#calendar ul.dates li.start{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    margin-top: 5px;
+    line-height:40px;
+    vertical-align:middle;
+    float:left;
+    list-style-type:none;
+       width:40px;
+    height:40px;
+    font-size:12px;
+    background-color: #DDD;
+    color:deepskyblue;
+    text-align:center;
+}
+
+div#calendar ul.dates li.next{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    margin-top: 5px;
+    line-height:40px;
+    vertical-align:middle;
+    float:left;
+    list-style-type:none;
+    width:40px;
+    height:40px;
+    font-size:12px;
+    background-color: whitesmoke;
+    color:#DDD;
+    text-align:center;
+}
+
+div#calendar ul.dates li {
+
+    width:28px;
+    height:28px;;
+    line-height:30px;
+}
+div#calendar ul.dates li.next {
+
+    width:28px;;
+    height:28px;;
+    line-height:30px;
+}
+div#calendar ul.dates li.start {
+    width:28px;;
+    height:28px;;
+    line-height:30px;
+}
+
+div#calendar ul.dates li.end {
+    width:28px;;
+    height:28px;
+    line-height:30px;
+;}
+
+div#calendar ul.label li {
+    height: 20px;
+    width: 28px;
+    line-height:30px;
+}

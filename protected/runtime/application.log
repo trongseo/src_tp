@@ -1,0 +1,1104 @@
+2014/11/04 03:40:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php?r=changeinfo/index
+---
+2014/11/04 03:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php?r=changeinfo/index
+---
+2014/11/04 03:44:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php?r=changeinfo/index
+---
+2014/11/04 04:45:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php?r=questions/index&page=2
+---
+2014/11/05 05:31:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "dos_webacb".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('dos_webacb')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/
+---
+2014/11/05 05:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php
+---
+2014/11/05 05:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php?r=questions/
+---
+2014/11/05 07:23:56 [error] [php] html_entity_decode(): charset `CP1258' not supported, assuming utf-8 (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\parsingHtml.class.php:236)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\html2pdf.class.php(407): HTML2PDF_parsingHtml->parse()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php(141): HTML2PDF->writeHTML()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\actions\CInlineAction.php(49): ReportusersController->actionPdf()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#6 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#7 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=reportusers/pdf
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\parsingHtml.class.php (236)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\parsingHtml.class.php (157)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\html2pdf.class.php (407)
+2014/11/05 07:57:55 [error] [php] require_once(D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class/../_tcpdf_5.0.002/tcpdf.php): failed to open stream: No such file or directory (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\myPdf.class.php:13)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\YiiBase.php(401): include()
+#1 unknown(0): autoload()
+#2 unknown(0): spl_autoload_call()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\extensions\yii-pdf\EYiiPdf.php(82): ReflectionClass->__construct()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\extensions\yii-pdf\EYiiPdf.php(115): EYiiPdf->initLibrary()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php(124): EYiiPdf->HTML2PDF()
+#6 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\actions\CInlineAction.php(49): ReportusersController->actionPdf()
+#7 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(308): CInlineAction->runWithParams()
+#8 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#9 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#10 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#11 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=reportusers/pdf
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\myPdf.class.php (13)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\_class\myPdf.class.php (13)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\vendors\html2pdf\html2pdf.class.php (19)
+2014/11/05 08:31:42 [error] [php] require_once(tcpdf.php): failed to open stream: No such file or directory (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php:149)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=reportusers/pdf
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php (149)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php (149)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/11/05 08:43:50 [error] [php] file_get_contents(data/utf8test.txt): failed to open stream: No such file or directory (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php:201)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=reportusers/pdf
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php (201)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/11/05 08:46:36 [error] [php] Undefined variable: result_Search (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php:196)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=reportusers/pdf
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php (196)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/11/06 05:20:29 [error] [php] Undefined index: id_exam (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\TaketestController.php:9)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): TaketestController->runAction()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): TaketestController->runActionWithFilters()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): TaketestController->run()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=taketest/dotest
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\TaketestController.php (9)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/11/06 05:20:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/dos_webacb/index.php
+---
+2014/11/10 05:35:24 [error] [php] Undefined offset: 0 (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php:77)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): ReportusersController->runAction()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): ReportusersController->runActionWithFilters()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): ReportusersController->run()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=ReportUsers/load&id_user=1&id_exam=8
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\ReportusersController.php (77)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/12/04 05:18:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajx".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajx')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajx')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajx')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajx
+---
+2014/12/04 05:18:50 [error] [php] Cannot modify header information - headers already sent by (output started at D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:793) (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php:114)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): SubjectsController->runAction()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): SubjectsController->runActionWithFilters()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): SubjectsController->run()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php (114)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/12/04 11:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/04 11:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('insert?is_inser...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('insert?is_inser...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/insert...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/insert?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('insert?is_inser...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('insert?is_inser...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/insert...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/insert?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('insert?is_inser...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('insert?is_inser...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/insert...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/insert?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('insert?is_inser...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('insert?is_inser...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/insert...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/insert?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "insert?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('insert?is_inser...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('insert?is_inser...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/insert...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/insert?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:42:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=chrome-devtools://devtools/bundled/devtools.html?&can_dock=true&dockSide=undocked&toolbarColor=rgba(242,242,242,1)&textColor=rgba(0,0,0,1)
+---
+2014/12/05 03:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+---
+2014/12/05 03:43:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:44 [error] [php] Undefined index: Subject (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php:101)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): SubjectsController->runAction()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): SubjectsController->runActionWithFilters()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): SubjectsController->run()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax&is_insert=1
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php (101)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2014/12/05 03:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/05 03:43:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajax?is_insert=1".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php:483
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(270): CController->missingAction('ajax?is_insert=...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): CController->run('ajax?is_insert=...')
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('subjects/ajax?i...')
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax?is_insert=1
+HTTP_REFERER=http://localhost:63342/dos_webacb/index.php?r=subjects/list
+---
+2014/12/08 03:58:25 [error] [php] Undefined index: guid (D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php:103)
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(286): SubjectsController->runAction()
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CController.php(265): SubjectsController->runActionWithFilters()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(282): SubjectsController->run()
+#3 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CWebApplication->run()
+REQUEST_URI=/dos_webacb/index.php?r=subjects/ajax&is_insert=1
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\protected\controllers\SubjectsController.php (103)
+in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php (17)
+2015/04/07 10:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
+2015/04/07 10:21:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "adminlogin/index".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('adminlogin/inde...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=adminlogin/index&page=3
+---
+2015/04/07 10:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "adminlogin/index".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('adminlogin/inde...')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=adminlogin/index
+---
+2015/04/07 10:21:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\sba_project\SBA_SVN\sba_project\pqo_project\Src\quiz\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php
+---
+2015/04/07 11:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useradmin/login".' in D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('useradmin/login')
+#1 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=useradmin/login
+---
+2015/04/07 11:10:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useradmin/login".' in D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('useradmin/login')
+#1 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=useradmin/login
+---
+2015/04/08 05:29:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useradmin/login".' in D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('useradmin/login')
+#1 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=useradmin/login
+---
+2015/04/08 05:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useradmin/login".' in D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('useradmin/login')
+#1 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=useradmin/login
+---
+2015/04/08 05:55:14 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:251
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(251): PDOStatement->bindParam(0, 'test', 2)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(29): CDbCommand->bindParam(0, 'test', 2)
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(9): CommonDB::GetAll('Select *  from ...', Array)
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 05:56:16 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:251
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(251): PDOStatement->bindParam(0, 'test', 2)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(29): CDbCommand->bindParam(0, 'test', 2)
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(9): CommonDB::GetAll('Select *  from ...', Array)
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 05:56:19 [error] [exception.PDOException] exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: Columns/Parameters are 1-based' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:251
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(251): PDOStatement->bindParam(0, 'test', 2)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(29): CDbCommand->bindParam(0, 'test', 2)
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(9): CommonDB::GetAll('Select *  from ...', Array)
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 06:23:52 [error] [php] Undefined variable: hashTable (D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php:54)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): SanphamController->runAction()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): SanphamController->runActionWithFilters()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): SanphamController->run()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=sanpham/index
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (54)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:24:09 [error] [php] Undefined variable: hashTable (D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php:54)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): SanphamController->runAction()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): SanphamController->runActionWithFilters()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): SanphamController->run()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=sanpham/index
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (54)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:24:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1AND id ='1'' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1AND id =:id.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (55)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:24:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1AND id ='1'' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1AND id =:id' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(55): CDbCommand->queryAll()
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(10): CommonDB::GetDataRow('m_exam', Array)
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 06:24:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1  AND id ='1'' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1  AND id =:id .
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (55)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:24:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1  AND id ='1'' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1  AND id =:id ' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(55): CDbCommand->queryAll()
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(10): CommonDB::GetDataRow('m_exam', Array)
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 06:26:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ANDid=1' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1 ANDid=1.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (53)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:26:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ANDid=1' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1 ANDid=1' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(53): CDbCommand->queryAll()
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(10): CommonDB::GetDataRow('m_exam', 'id=1')
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 06:26:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND id=1' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1 AND id=1.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (53)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (10)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 06:26:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND id=1' at line 1. The SQL statement executed was: Select * from m_examwhere 1=1 AND id=1' in D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php(53): CDbCommand->queryAll()
+#2 D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php(10): CommonDB::GetDataRow('m_exam', 'id=1')
+#3 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('sanpham/index')
+#9 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\tanphucglass\web_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=sanpham/index
+---
+2015/04/08 10:20:56 [error] [php] Undefined variable: result (D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php:23)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): SanphamController->runAction()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): SanphamController->runActionWithFilters()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): SanphamController->run()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=sanpham/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (23)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 10:29:44 [error] [php] Undefined variable: sql (D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php:113)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): SanphamController->runAction()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): SanphamController->runActionWithFilters()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): SanphamController->run()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=sanpham/index
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (113)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (22)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 10:29:51 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'query1' at line 1. The SQL statement executed was: query1.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (116)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (22)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 10:46:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') where san_pham_guid='6EC545DE-EEC4-9064-660C-434608EE72BF'' at line 1. The SQL statement executed was: update  san_pham set ma_sp=:ma_sp) where san_pham_guid=:san_pham_guid;.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (121)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (21)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:19:27 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2where san_pham_guid='6EC545DE-EEC4-9064-660C-434608EE72BF'' at line 1. The SQL statement executed was: update  san_pham set ma_sp=:ma_sp 2where san_pham_guid=:san_pham_guid;.
+in D:\project\github\tanphucglass\web_tp\protected\components\CommonDB.php (121)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\SanphamController.php (21)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:36:49 [error] [php] Array to string conversion (D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php:18)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): TesttestController->runAction()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): TesttestController->runActionWithFilters()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): TesttestController->run()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=testtest/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (18)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:36:53 [error] [php] Array to string conversion (D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php:18)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): TesttestController->runAction()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): TesttestController->runActionWithFilters()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): TesttestController->run()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=testtest/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (18)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:36:54 [error] [php] Array to string conversion (D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php:18)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): TesttestController->runAction()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): TesttestController->runActionWithFilters()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): TesttestController->run()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=testtest/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (18)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:37:16 [error] [php] Array to string conversion (D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php:18)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): TesttestController->runAction()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): TesttestController->runActionWithFilters()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): TesttestController->run()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=testtest/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (18)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/08 11:55:05 [error] [php] json_decode() expects parameter 1 to be string, array given (D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php:40)
+Stack trace:
+#0 D:\project\github\tanphucglass\web_tp\framework\web\actions\CInlineAction.php(49): TesttestController->actionIndex()
+#1 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(286): TesttestController->runAction()
+#3 D:\project\github\tanphucglass\web_tp\framework\web\CController.php(265): TesttestController->runActionWithFilters()
+#4 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(282): TesttestController->run()
+#5 D:\project\github\tanphucglass\web_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\project\github\tanphucglass\web_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\project\github\tanphucglass\web_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=testtest/index
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (40)
+in D:\project\github\tanphucglass\web_tp\protected\controllers\TesttestController.php (9)
+in D:\project\github\tanphucglass\web_tp\index.php (17)
+2015/04/13 16:34:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in D:\project\aPhungTanPhucglass\1SOURCE\web_tp\web_tp\src_web\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\web_tp\web_tp\src_web\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\web_tp\web_tp\src_web\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\web_tp\web_tp\src_web\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/
+---
