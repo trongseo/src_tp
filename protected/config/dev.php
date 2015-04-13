@@ -4,9 +4,9 @@ return CMap::mergeArray(
     array(
         'components' => array(
             'db' => array(
-                'connectionString' => 'mysql:host=192.168.0.100;dbname=admin',
+                'connectionString' => 'mysql:host=chuyennhat.vn;dbname=test_glass1',
                 'emulatePrepare' => true,
-                'username' => 'root',
+                'username' => 'test_glass1',
                 'password' => '123456789',
                 'charset' => 'utf8',
                 'schemaCachingDuration' => 60 * 60,
