@@ -10,8 +10,8 @@
 <?php $form = $this->beginWidget('CActiveForm', array('id' => 'frm', 'enableAjaxValidation' => true, 'enableClientValidation' => true, 'htmlOptions' => array('name' => 'frm'))); ?>
 
 <p><table cellpadding=0 cellspacing=0 border=0 width="100%">
-    <tr><td width=200><img src="themes/admin-green/images/logo.gif" width=200 height=40></td><td width="100%" align=center class=top_section>
-            LOGIN QUIZ</td></tr>
+    <tr><td width=200></td><td width="100%" align=center class=top_section>
+            ADMIN LOGIN</td></tr>
     <tr><td colspan=2 height=1 width=100% style="background-color: #E7E9EF;"><img src="themes/admin-green/images/1x1.gif" width=1 height=1></td></tr>
 
     <tr><td colspan=2 height=7 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=7></td></tr>
@@ -22,11 +22,11 @@
 
                         <table cellpadding=0 cellspacing=0 border=0 width="100%">
                             <tr><td class=box_area>
-                                    <p>
-                                    <p><b><?php echo $errors ?></b></p>
-                                    <table cellpadding=0 cellspacing=5 border=0 width="100%">
-                                        <tr vAlign=top><td width="35%" height="100%" class=signin1>
 
+                                    <table cellpadding=0 cellspacing=5 border=0 width="100%">
+                                        <tr vAlign=top><td  height="100%" class="signin1" COLSPAN="2">
+                                                <p>
+                                                <p><b><?php echo $errors ?></b></p>
                                                     <br>Email:
                                                     <br><input name=username class=inp type=text value="" size=20>
                                                     <br>Password:
@@ -35,12 +35,10 @@
                                                     <br><input class=btn type=submit name=bsubmit value=" Login ">
 
                                                     <br><br>&nbsp;</td>
-                                            <td height="100%" class=signin2>
+                                            <td >
 
 
 
-                                                <p><br><b></p>
-                                                <H4>&nbsp;</p>
 </td></tr></table>
 
 </td></tr></table>
@@ -50,8 +48,8 @@
 <tr><td colspan=2 height=9 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=9></td></tr>
 <tr><td colspan=2 height=1 width=100% style="background-color: #E7E9EF;"><img src="themes/admin-green/images/1x1.gif" width=1 height=1></td></tr>
 <tr><td colspan=2 height=2 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=2></td></tr>
-<tr><td colspan=2 align=right><!--Trắc nghiệm Tân Phú v2.1.0--></td></tr>
-<tr><td colspan=2 align=center>Copyright &copy; 2004-2014Starboard Asia Ltd<br />
+<tr><td colspan=2 align=right></td></tr>
+<tr><td colspan=2 align=center>Copyright &copy; 2015<br />
         All Rights Reserved.
     </td></tr>
 </table>

@@ -1,9 +1,10 @@
 <?php
-Yii::app()->theme = '';
+
 class LoginController extends CController {
 
     public function actionIndex() {
 //va quass
+        Yii::app()->theme = '';
     $model = new User();
         if( isset($_POST["bsubmit"]) )
         {
@@ -19,10 +20,10 @@ class LoginController extends CController {
                 Yii::app()->session['full_name'] = $arrInfo['full_name'];
                 if(Yii::app()->session['email']=='admin')
                 {
-                    $this->redirect(array('questions/index'));
-                }else
-                $this->redirect(array('chooseexams/index'));
+                    $this->redirect(array('myadmin/index'));
+                }
             }
+            return;
         }
 
     $this->render('login',array('errors' =>''));

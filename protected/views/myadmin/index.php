@@ -1,11 +1,24 @@
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr >
+        <td width="2%" height="22" style="background-color: #00CCCC" >
+        </td>
+        <td width="6%" height="22" nowrap style="background-color: #00CCCC" >
+            <b>
+               <?php echo $this->pageTitle; ?> </b></td>
+        <td width="92%" height="22" style="">
+        </td>
+    </tr>
+
+</table>
 <table width="100%" cellspacing="0" cellpadding="0" border="0" class="greenboxmain" style="border-collapse: collapse;table-layout:fixed">
     <tr>
-        <td class="auto-style2">
+        <td class="auto-style2 bordertop"><br/>
             <div>
 
                 <table class="auto-style3">
                     <tr>
-                        <td>Mã sản phẩm</td>
+                        <td width="200">Mã sản phẩm</td>
                         <td>
                             TV 123</td>
                     </tr>

@@ -1273,3 +1273,101 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/index.php?r=myadmin/index
 ---
+2015/04/14 15:39:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_glass1.m_question' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `m_question`.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\QuestionsController.php (7)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/14 15:39:14 [error] [exception.CDbException] exception 'CDbException' with message 'The table "m_question" for active record class "QuestionBanks" cannot be found in the database.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(QuestionBanks))
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\QuestionsController.php(7): CActiveRecord->__construct()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/index')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=questions/index
+HTTP_REFERER=http://localhost:8222/index.php?r=login/index
+---
+2015/04/14 15:42:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_glass1.m_question' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `m_question`.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\QuestionsController.php (7)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/14 15:42:56 [error] [exception.CDbException] exception 'CDbException' with message 'The table "m_question" for active record class "QuestionBanks" cannot be found in the database.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(QuestionBanks))
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\QuestionsController.php(7): CActiveRecord->__construct()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): QuestionsController->actionIndex()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('questions/index')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=questions/index
+HTTP_REFERER=http://localhost:8222/index.php?r=login/index
+---
+2015/04/14 16:26:01 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_glass1.m_question' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `m_question`.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\SanphamController.php (23)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/14 16:26:01 [error] [exception.CDbException] exception 'CDbException' with message 'The table "m_question" for active record class "QuestionBanks" cannot be found in the database.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(QuestionBanks))
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\SanphamController.php(23): CActiveRecord->__construct()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('Sanpham/index')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=Sanpham/index
+---
+2015/04/14 16:38:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_glass1.m_question' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `m_question`.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\SanphamController.php (23)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/14 16:38:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "m_question" for active record class "QuestionBanks" cannot be found in the database.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(QuestionBanks))
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\SanphamController.php(23): CActiveRecord->__construct()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): SanphamController->actionIndex()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('Sanpham/index')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=Sanpham/index
+---
+2015/04/14 16:51:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'test_glass1.m_exam' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `m_exam`.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\ChooseexamsController.php (7)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/14 16:51:48 [error] [exception.CDbException] exception 'CDbException' with message 'The table "m_exam" for active record class "Exam" cannot be found in the database.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Exam))
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\ChooseexamsController.php(7): CActiveRecord->__construct()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): ChooseexamsController->actionIndex()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('index')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('chooseexams/ind...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=chooseexams/index
+HTTP_REFERER=http://localhost:8222/index.php?r=Changepass
+---
