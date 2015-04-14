@@ -3,7 +3,7 @@ Yii::app()->theme = '';
 class LoginController extends CController {
 
     public function actionIndex() {
-//va qua
+//va quass
     $model = new User();
         if( isset($_POST["bsubmit"]) )
         {
