@@ -61,7 +61,7 @@
 
 
                 <li>
-                    <a   href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                    <a   href="index.php?r=myadmin/index"><i class="fa fa-dashboard "></i>Đơn hàng</a>
                 </li>
                 <li>
                     <a href="ui.html"><i class="fa fa-venus "></i>UI Elements </a>
@@ -75,7 +75,7 @@
 
 
                 <li>
-                    <a class="active-menu" href="forms.html"><i class="fa fa-code "></i>Forms</a>
+                    <a href="forms.html"><i class="fa fa-code "></i>Forms</a>
                 </li>
 
                 <li>
@@ -133,6 +133,16 @@
 <!-- CUSTOM SCRIPTS -->
 <script src="themes/admin-template/js/custom.js"></script>
 
+<script>
+    jQuery('#main-menu a').each(function() {
+  var curHr =  window.location.href;
+        if(curHr.indexOf($(this).attr("href"))>-1){
+            $(this).attr("class","active-menu");
+        }
 
+
+    });
+
+</script>
 </body>
 </html>
