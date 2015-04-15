@@ -25,8 +25,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="pass_new">Confirm password:</label>
-                      sss
+                        <label for="pass_new">Hình đại diện:</label>
+                        <input id="File1" type="file" /> <img alt="" src="" />
                     </div>
                     <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">
                 </div>
