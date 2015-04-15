@@ -20,12 +20,13 @@
                     <div class="form-group">
                         <label for="pass_new">Chọn màu sắc: </label>
                         <select id="Select1" class="form-control">
-                            <option></option>
-
+                            <?php foreach($dataColor as $value):?>
+                            <option value="<?php echo $value["color_id"] ?>" ><?php echo $value["color_name"] ?></option>
+                            <?php endforeach?>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="pass_new">Hình đại diện:</label>
+                        <label for="pass_new">Hình :</label>
                         <input id="File1" type="file" /> <img alt="" src="" />
                     </div>
                     <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">

@@ -12,8 +12,8 @@ class MyadminController extends CController {
     public function actionHinhsanpham() {
 
         $this->pageTitle = "Up hình sản phẩm ";
-
-        $this->render('hinhsanpham',array('model'=>""));
+        $dataColor = CommonDB::GetAll("Select * from m_color ",[]);
+        $this->render('hinhsanpham',array('dataColor'=>$dataColor));
     }
 
     public function actionChangepassword() {
