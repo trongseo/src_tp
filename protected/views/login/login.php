@@ -1,57 +1,64 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><head><title> LOGIN -QUIZ </title>
-    <meta http-equiv="Content-Language" content="en-us">
-    <meta content="text/html; charset=UTF-8" http-equiv=Content-Type>
-    <link rel="SHORTCUT ICON" href="/favicon.ico">
-    <link href="themes/admin-green/shared/style.css" rel=stylesheet type=text/css>
-    <script language=javascript src="themes/admin-green/shared/shared.js" type="text/javascript"></script>
+
+<!DOCTYPE html>
+<html class="bg-black">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin | Log in</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- bootstrap 3.0.2 -->
+    <link href="themes/admin-green/views/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!-- font Awesome -->
+    <link href="themes/admin-green/views/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <!-- Ionicons -->
+
+    <!-- Theme style -->
+    <link href="themes/admin-green/views/css/AdminLTE.css" rel="stylesheet" type="text/css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        .header{
+            font-family: tahoma, verdana, sans-serif;
+        }
+    </style>
 </head>
-<body bgcolor="#ffffff">
+<body class="bg-black">
 <?php $form = $this->beginWidget('CActiveForm', array('id' => 'frm', 'enableAjaxValidation' => true, 'enableClientValidation' => true, 'htmlOptions' => array('name' => 'frm'))); ?>
 
-<p><table cellpadding=0 cellspacing=0 border=0 width="100%">
-    <tr><td width=200></td><td width="100%" align=center class=top_section>
-            ADMIN LOGIN</td></tr>
-    <tr><td colspan=2 height=1 width=100% style="background-color: #E7E9EF;"><img src="themes/admin-green/images/1x1.gif" width=1 height=1></td></tr>
+<div class="form-box" id="login-box">
+    <div class="header">Đăng nhập</div>
+    <?php echo $errors ?>
+        <div class="body bg-gray">
+            <div class="form-group">
+                <input type="text" name="username" class="form-control" placeholder="User ID"/>
+            </div>
+            <div class="form-group">
+                <input type="password" name="password" class="form-control" placeholder="Password"/>
+            </div>
 
-    <tr><td colspan=2 height=7 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=7></td></tr>
-    <tr><td colspan=2>
+        </div>
+        <div class="footer">
+            <button type="submit" name=bsubmit  class="btn bg-olive btn-block">Đăng nhập</button>
 
-            <table cellpadding=0 cellspacing=0 border=0 width="100%">
-                <tr vAlign=top><td width="1%"><img src="themes/admin-green/images/1x1.gif" width=2 height=1></td><td>
 
-                        <table cellpadding=0 cellspacing=0 border=0 width="100%">
-                            <tr><td class=box_area>
-
-                                    <table cellpadding=0 cellspacing=5 border=0 width="100%">
-                                        <tr vAlign=top><td  height="100%" class="signin1" COLSPAN="2">
-                                                <p>
-                                                <p><b><?php echo $errors ?></b></p>
-                                                    <br>Email:
-                                                    <br><input name=username class=inp type=text value="" size=20>
-                                                    <br>Password:
-                                                    <br><input name=password class=inp type=password value="" size=20><input name=gotourl type=hidden value="/php/tracnghiem/test.php">
-                                                    <br>
-                                                    <br><input class=btn type=submit name=bsubmit value=" Login ">
-
-                                                    <br><br>&nbsp;</td>
-                                            <td >
+        </div>
 
 
 
-</td></tr></table>
-
-</td></tr></table>
-</td><td width="1%"><img src="themes/admin-green/images/1x1.gif" width=2 height=1></td></tr></table>
-
-</td></tr>
-<tr><td colspan=2 height=9 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=9></td></tr>
-<tr><td colspan=2 height=1 width=100% style="background-color: #E7E9EF;"><img src="themes/admin-green/images/1x1.gif" width=1 height=1></td></tr>
-<tr><td colspan=2 height=2 width=100%><img src="themes/admin-green/images/1x1.gif" width=1 height=2></td></tr>
-<tr><td colspan=2 align=right></td></tr>
-<tr><td colspan=2 align=center>Copyright &copy; 2015<br />
-        All Rights Reserved.
-    </td></tr>
-</table>
+</div>
 <?php $this->endWidget(); ?>
-</body></html>
+
+<!-- jQuery 2.0.2 -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+<!-- jQuery UI 1.10.3 -->
+<script src="themes/admin-green/views/js/jquery-ui-1.10.3.min.js" type="text/javascript"></script>
+<!-- Bootstrap -->
+<script src="themes/admin-green/views/js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+</html>

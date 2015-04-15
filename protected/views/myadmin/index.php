@@ -1,16 +1,10 @@
+<section class="content-header">
+    <h1>
+        <?php echo $this->pageTitle; ?>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-    <tr >
-        <td width="2%" height="22" style="background-color: #00CCCC" >
-        </td>
-        <td width="6%" height="22" nowrap style="background-color: #00CCCC" >
-            <b>
-               <?php echo $this->pageTitle; ?> </b></td>
-        <td width="92%" height="22" style="">
-        </td>
-    </tr>
+    </h1>
 
-</table>
+</section><section class="content  bordertop">
 <table width="100%" cellspacing="0" cellpadding="0" border="0" class="greenboxmain" style="border-collapse: collapse;table-layout:fixed">
     <tr>
         <td class="auto-style2 bordertop"><br/>
@@ -18,12 +12,12 @@
 
                 <table class="auto-style3">
                     <tr>
-                        <td width="200">Mã sản phẩm</td>
+                        <td width="200">Mã s?n ph?m</td>
                         <td>
                             TV 123</td>
                     </tr>
                     <tr>
-                        <td>Chọn màu sắc</td>
+                        <td>Ch?n màu s?c</td>
                         <td>
                             <select id="Select1">
                                 <option></option>
@@ -31,12 +25,12 @@
                             </select></td>
                     </tr>
                     <tr>
-                        <td>Hình đại diện&nbsp; </td>
+                        <td>Hình ??i di?n&nbsp; </td>
                         <td>
                             <input id="File1" type="file" /> <img alt="" src="" /></td>
                     </tr>
                     <tr>
-                        <td>Danh sách hình theo màu sắc</td>
+                        <td>Danh sách hình theo màu s?c</td>
                         <td>
                             (load dong theo mau sac)</td>
                     </tr>
@@ -64,7 +58,7 @@
                     <tr>
                         <td>&nbsp;</td>
                         <td>
-                            <input id="Button1" type="button" value="Cập nhật" />
+                            <input id="Button1" type="button" value="C?p nh?t" />
                         </td>
                     </tr>
                 </table>
@@ -105,3 +99,4 @@
         </td>
     </tr>
 </table>
+</section>

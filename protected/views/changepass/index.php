@@ -1,13 +1,16 @@
+<section class="content-header">
+    <h1>
+        <?php echo $this->pageTitle; ?>
 
+    </h1>
 
+</section>
+<?php $form = $this->beginWidget('CActiveForm', array('id' => 'frm', 'enableAjaxValidation' => false, 'enableClientValidation' => true, 'htmlOptions' => array('name' => 'frm'))); ?>
+
+<section class="content  ">
 <div class="row">
-    <div class="col-md-12">
-        <h1 class="page-head-line">Đổi mật khẩu </h1>
-    </div>
-</div>
-<div class="row">
-    <div class="col-md-6">  <?php $form = $this->beginWidget('CActiveForm', array('id' => 'frm', 'enableAjaxValidation' => false, 'enableClientValidation' => true, 'htmlOptions' => array('name' => 'frm'))); ?>
-        <?php echo $form->errorSummary($model, ''); ?>
+    <div class="col-md-6">
+         <?php echo $form->errorSummary($model, ''); ?>
         <div class="panel panel-default">
 
             <div class="panel-body">
@@ -24,7 +27,7 @@
                     <label for="pass_new">Confirm password:</label>
                     <?php echo $form->passwordField($model, 'pass_new_compare', array( 'class'=>'form-control','size'=>'30')); ?>
                 </div>
-                <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">
+                <input class="btn btn-primary btn-lg" name="bsubmit" value=" L?u " type="submit">
               </div>
 
 
@@ -33,6 +36,8 @@
 
 
         </div>
-        <?php $this->endWidget(); ?>
+
     </div>
 </div>
+</section>
+<?php $this->endWidget(); ?>

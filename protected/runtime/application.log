@@ -1371,3 +1371,37 @@ Stack trace:
 REQUEST_URI=/index.php?r=chooseexams/index
 HTTP_REFERER=http://localhost:8222/index.php?r=Changepass
 ---
+2015/04/15 02:04:31 [error] [php] Undefined variable: form (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\hinhsanpham.php:11)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): MyadminController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): MyadminController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(16): MyadminController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionHinhsanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/hinhsanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\hinhsanpham.php (11)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (16)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 02:04:40 [error] [php] Undefined variable: form (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\hinhsanpham.php:29)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): MyadminController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): MyadminController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(16): MyadminController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionHinhsanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/hinhsanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\hinhsanpham.php (29)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (16)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)

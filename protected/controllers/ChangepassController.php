@@ -1,9 +1,9 @@
 <?php
-
+Yii::app()->theme = 'admin-green';
 class ChangepassController extends UsersController {
 
     public function actionIndex(){
-		Yii::app()->theme = 'admin-template';
+
         $this->pageTitle = "Đổi mật khẩu ";
         $model = new User();
         if( isset($_POST["bsubmit"]) ){
