@@ -16,10 +16,21 @@ class MyadminController extends CController {
         $this->render('hinhsanpham',array('dataColor'=>$dataColor));
     }
     public function actionSanphamedit() {
+        $hsTable["san_pham_guid"]="";
+        $hsTable["ma_sp"]="";
+        $hsTable["ten_sp"]="";
+        $hsTable["hinh_dai_dien"]="";
+        $hsTable["san_pham_loai_guid"]="";
+        $hsTable["mo_ta_ngan"]="";
+        $hsTable["mo_ta_dai"]="";
+        if( isset($_GET["guid"]) ){
+                $guid = $_GET["guid"];
+            $hsTable=CommonDB::GetDataRowKeyGuid("san_pham",$guid);
 
+        }
         $this->pageTitle = "Cập nhật sản phẩm ";
        $datasan_pham_loai_guid = CommonDB::GetAll("Select * from san_pham_loai ",[]);
-        $this->render('sanphamedit',array('datasan_pham_loai_guid'=>$datasan_pham_loai_guid));
+        $this->render('sanphamedit',array('hsTable'=>$hsTable,'datasan_pham_loai_guid'=>$datasan_pham_loai_guid));
     }
 
     public function actionChangepassword() {

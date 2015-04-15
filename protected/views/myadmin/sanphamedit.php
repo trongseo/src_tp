@@ -43,7 +43,7 @@
                     <div class='box-body pad'>
                         <form>
                             <textarea id="mo_ta_dai" name="mo_ta_dai" rows="10" cols="80">
-                                This is my textarea to be replaced with CKEditor.
+                              <?php echo $hsTable["mo_ta_dai"] ?>
                             </textarea>
                         </form>
                     </div>

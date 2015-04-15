@@ -21,7 +21,9 @@ class Common {
             $guid= $uuid;
         }
         //var_dump($guid);
-        return str_replace("{","",$guid );
+        $guid=str_replace("{","",$guid );
+        $guid=str_replace("}","",$guid );
+        return $guid;
     }
 
     public static function menuMultiLevel($data, $models, $link, $tag = null, $tagSub = null) {
