@@ -18,11 +18,7 @@ class TesttestController extends CController {
             return "Lỗi upload (không tìm thấy)";
         }
 
-
         return "";
-
-
-
 
     }
      public  function  actionUploadImage(){
@@ -69,6 +65,7 @@ class TesttestController extends CController {
 
         //tao insert
         $columnList ="";
+        $inputList ='';
         $columnListPara ="";
         $hsTestData=[];
         $removeColmn="date_create,date_update";
@@ -80,7 +77,10 @@ class TesttestController extends CController {
                 $columnListPara .=":".$column_name.",";
                 $hsTestData[$column_name]=CommonDB::guid();
                 $dl ='$hsTable';
-                $strHs .=$dl."[\"$column_name\"]='xxx' \n";
+                $dls ='$'.$column_name;
+                $strHs .=$dl."[\"$column_name\"]=$dls ;\n";
+                $me=$dl.'["'.$column_name.'"]';
+                $inputList .='<input type="text" value="'.$me.'" name="'.$column_name.'" id="'.$column_name.'">\n';
             }
         }
         $columnList=rtrim($columnList, ",");
@@ -88,7 +88,7 @@ class TesttestController extends CController {
         $queryInsert ="insert into ".$tableName."($columnList) values($columnListPara)";
 
         //echo $columnList,$columnListPara;
-        var_dump( $queryInsert, $strHs);
+        var_dump( $queryInsert, $strHs,$inputList);
         //CommonDB::runSQL($queryInsert,$hsTestData);
     }
 

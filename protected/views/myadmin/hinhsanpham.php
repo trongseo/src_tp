@@ -5,6 +5,9 @@
     </h1>
 
 </section>
+
+<script src="http://malsup.github.com/jquery.form.js"></script>
+<form id="myForm" action="index.php?r=ajaxadmin/UploadImage" method="post" enctype="multipart/form-data">
 <section class="content  bordertop">
     <div class="row">
         <div class="col-md-6">
@@ -19,27 +22,102 @@
                     </div>
                     <div class="form-group">
                         <label for="pass_new">Chọn màu sắc: </label>
-                        <select id="Select1" class="form-control">
+                        <select id="color_id" name="color_id"  class="form-control">
                             <?php foreach($dataColor as $value):?>
                             <option value="<?php echo $value["color_id"] ?>" ><?php echo $value["color_name"] ?></option>
                             <?php endforeach?>
                         </select>
-                    </div>
+                        <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="8522478" />
+                    </div
                     <div class="form-group">
                         <label for="pass_new">Hình :</label>
-                        <input id="File1" type="file" /> <img alt="" src="" />
+                        <br/>
+
+                        <div id="message"></div><div id="progress">
+                            <div id="bar"></div>
+                            <div id="percent"></div >
+                        </div>
+                        <input type="file" size="60" name="uploaded_image" id="uploaded_image"> <img alt="" width="50" name="uploaded_image1" id="uploaded_image1"  src="" />
                     </div>
                     <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">
                 </div>
+<div id="divlist">
 
-
-
-
-
-
+</div>
             </div>
 
         </div>
     </div>
 </section>
+</form>
 
+
+<script>
+    function showImage(src,target) {
+        var fr=new FileReader();
+        // when image is loaded, set the src of the image where you want to display it
+        fr.onload = function(e) { target.src = this.result; };
+        src.addEventListener("change",function() {
+            // fill fr with image data
+            fr.readAsDataURL(src.files[0]);
+        });
+    }
+    var src = document.getElementById("uploaded_image");
+    var target = document.getElementById("uploaded_image1");
+    showImage(src,target);
+    $(document).ready(function()
+    {
+
+        var options = {
+            beforeSend: function()
+            {
+                $("#progress").show();
+                //clear everything
+                $("#bar").width('0%');
+                $("#message").html("");
+                $("#percent").html("0%");
+            },
+            uploadProgress: function(event, position, total, percentComplete)
+            {
+                $("#bar").width(percentComplete+'%');
+                $("#percent").html(percentComplete+'%');
+
+
+            },
+            success: function()
+            {
+                $("#bar").width('100%');
+                $("#percent").html('100%');
+              listImage();
+
+            },
+            complete: function(response)
+            {
+                $("#message").html("<font color='green'>"+response.responseText+"</font>");
+            },
+            error: function()
+            {
+                $("#message").html("<font color='red'> ERROR: unable to upload files</font>");
+
+            }
+
+        };
+
+        $("#myForm").ajaxForm(options);
+        listImage();
+
+    });
+    $( "#color_id" ).change(function() {
+        listImage();
+    });
+function listImage(){
+    $('#divlist').html('loading...');
+    guid_id=$('#san_pham_guid').val();
+    color_id=$('#color_id').val();
+    $.get("index.php?r=ajaxadmin/listimage&san_pham_guid="+guid_id +"&color_id="+color_id, function (data, status) {
+       $('#divlist').html(data);
+
+    });
+
+}
+</script>

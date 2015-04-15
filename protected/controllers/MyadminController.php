@@ -15,6 +15,12 @@ class MyadminController extends CController {
         $dataColor = CommonDB::GetAll("Select * from m_color ",[]);
         $this->render('hinhsanpham',array('dataColor'=>$dataColor));
     }
+    public function actionSanphamedit() {
+
+        $this->pageTitle = "Cập nhật sản phẩm ";
+       $datasan_pham_loai_guid = CommonDB::GetAll("Select * from san_pham_loai ",[]);
+        $this->render('sanphamedit',array('datasan_pham_loai_guid'=>$datasan_pham_loai_guid));
+    }
 
     public function actionChangepassword() {
 

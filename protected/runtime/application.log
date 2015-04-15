@@ -1816,3 +1816,145 @@ Stack trace:
 REQUEST_URI=/index.php?r=testtest/UploadImage
 HTTP_REFERER=http://localhost:1900/index.php?r=testtest/UploadImage
 ---
+2015/04/15 14:14:07 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:40)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/UploadImage
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (40)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 14:38:25 [error] [php] Undefined index: Select1 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:41)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/UploadImage
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (41)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 14:58:24 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:68)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/listimage
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (68)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 14:58:46 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:68)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/listimage&san_pham_guid%20=8522478
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (68)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 14:58:58 [error] [php] Undefined index: color_id (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:69)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/listimage&san_pham_guid=8522478
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (69)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 15:28:06 [error] [php] unlink(D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllersitem_image/undefined): No such file or directory (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:74)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/deleteimage&guid_id=undefined&imagename=undefined
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (74)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 15:28:42 [error] [php] unlink(D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllersitem_image/1_8522478.jpg): No such file or directory (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:74)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/deleteimage&guid_id=7409763B-CF1D-2B6E-D819-2C6419CCADD7&imagename=1_8522478.jpg
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (74)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 15:28:51 [error] [php] unlink(D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllersitem_image/1_852247804_15_2015_0309pm.jpg): No such file or directory (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:74)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/deleteimage&guid_id=84D22F51-49DA-89E1-F957-9CAA57A0E7A0&imagename=1_852247804_15_2015_0309pm.jpg
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (74)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 15:49:49 [error] [php] unlink(D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllersitem_image/1_852247804_15_2015_0309pm.jpg): No such file or directory (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:74)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/deleteimage&guid_id=84D22F51-49DA-89E1-F957-9CAA57A0E7A0&imagename=1_852247804_15_2015_0309pm.jpg
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (74)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 15:53:20 [error] [php] unlink(D:/project/aPhungTanPhucglass/1SOURCE/src_tp/item_image/icon_1_8522478.jpg): No such file or directory (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php:75)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/deleteimage&guid_id=7409763B-CF1D-2B6E-D819-2C6419CCADD7&imagename=1_8522478.jpg
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AjaxadminController.php (75)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/15 16:40:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sanphamedit".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('sanphamedit')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamedit')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamedit
+---
+2015/04/15 16:41:41 [error] [php] Invalid argument supplied for foreach() (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamedit.php:27)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): MyadminController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): MyadminController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(22): MyadminController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanphamedit()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamedit
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamedit.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (22)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
