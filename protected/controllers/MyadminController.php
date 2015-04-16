@@ -13,7 +13,8 @@ class MyadminController extends CController {
 
         $this->pageTitle = "Up hình sản phẩm ";
         $dataColor = CommonDB::GetAll("Select * from m_color ",[]);
-        $this->render('hinhsanpham',array('dataColor'=>$dataColor));
+        $san_pham_guid = $_REQUEST["san_pham_guid"];
+        $this->render('hinhsanpham',array('dataColor'=>$dataColor,'san_pham_guid'=>$san_pham_guid));
     }
     public function actionSanphamedit() {
         $hsTable["san_pham_guid"]="";

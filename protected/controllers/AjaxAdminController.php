@@ -67,40 +67,66 @@ class AjaxadminController extends CController {
     }
     public function actionSanphamedit() {
 
-        if( isset($_POST['bsubmit']) && isset($_FILES["uploaded_image"]["name"]) && ($_FILES["uploaded_image"]["name"]!="") ) {
-            $strResult = $this->checkImageFile("uploaded_image");
-            if($strResult !=""){
-                echo $strResult;exit();
+        if( isset($_POST['bsubmit'])) {
+
+            //update image
+            if( isset($_FILES["uploaded_image"]["name"]) && ($_FILES["uploaded_image"]["name"]!="")  ){
+                $strResult = $this->checkImageFile("uploaded_image");
+                if($strResult !=""){
+                    echo $strResult;exit();return;
+
+                }
 
             }
 
-            $image = new SimpleImage();
             $guid_id=$_REQUEST["san_pham_guid"];
+            $queryIn ="Update  san_pham set ma_sp=:ma_sp,san_pham_loai_guid=:san_pham_loai_guid,mo_ta_dai=:mo_ta_dai where san_pham_guid=:san_pham_guid";
+            $hsTable="";
             if($guid_id==""){
+                $hsTable["mo_ta_ngan"]="" ; $hsTable["ten_sp"]="" ;
                 $guid_id = Common::guid();
+                $queryIn="insert into san_pham(san_pham_guid,ma_sp,ten_sp,san_pham_loai_guid,mo_ta_ngan,mo_ta_dai)
+                    values(:san_pham_guid,:ma_sp,:ten_sp,:san_pham_loai_guid,:mo_ta_ngan,:mo_ta_dai)";
             }
             $ma_sp=$_REQUEST["ma_sp"];
-            $image->load($_FILES['uploaded_image']['tmp_name']);
-            $imageName ='daidien_'.$guid_id.date('m_d_Y_hisa').'.jpg';
-            $imageNameicon_="icon_".$imageName;
-            define("image_folder","item_image/");
-            $image->save(image_folder.$imageName);
 
-            $image->resizeToWidth(133);
-            $image->save(image_folder.$imageNameicon_);
 //            $image->resizeToWidth(1024); $image->save('1024picture2.jpg');
 //            $image->maxarea(450,450); $image->save('450450picture2.jpg');
 
-            $queryIn="insert into san_pham(san_pham_guid,ma_sp,ten_sp,hinh_dai_dien,san_pham_loai_guid,mo_ta_ngan,mo_ta_dai)
-                    values(:san_pham_guid,:ma_sp,:ten_sp,:hinh_dai_dien,:san_pham_loai_guid,:mo_ta_ngan,:mo_ta_dai)";
+
             $hsTable["san_pham_guid"]=$guid_id ;
             $hsTable["ma_sp"]=$ma_sp ;
-            $hsTable["ten_sp"]=$ma_sp ;
-            $hsTable["hinh_dai_dien"]=$imageName ;
+
+           // $hsTable["hinh_dai_dien"]=$imageName ;
             $hsTable["san_pham_loai_guid"]=$_REQUEST["san_pham_loai_guid"];
-            $hsTable["mo_ta_ngan"]="" ;
+
             $hsTable["mo_ta_dai"]=$_REQUEST["mo_ta_dai"]; ;
             CommonDB::runSQL($queryIn,$hsTable);
+
+            //update image
+            if( isset($_FILES["uploaded_image"]["name"]) && ($_FILES["uploaded_image"]["name"]!="")  ){
+                $strResult = $this->checkImageFile("uploaded_image");
+                if($strResult !=""){
+                    echo $strResult;exit();return;
+                }
+            }
+            if( isset($_FILES["uploaded_image"]["name"]) && ($_FILES["uploaded_image"]["name"]!="")  ){
+                $image = new SimpleImage();
+                $image->load($_FILES['uploaded_image']['tmp_name']);
+                $imageName ='daidien_'.$guid_id.date('m_d_Y_hisa').'.jpg';
+                $imageNameicon_="icon_".$imageName;
+                define("image_folder","item_image/");
+                $image->save(image_folder.$imageName);
+
+                $image->resizeToWidth(133);
+                $image->save(image_folder.$imageNameicon_);
+                $queryIn ="Update  san_pham set hinh_dai_dien=:hinh_dai_dien where san_pham_guid=:san_pham_guid";
+                $hsTableImage["san_pham_guid"]=$guid_id ;
+                $hsTableImage["hinh_dai_dien"]=$imageName ;
+                CommonDB::runSQL($queryIn,$hsTableImage);
+            }
+
+
             // $image->output();
             //$image->scale(50);
 

@@ -19,16 +19,26 @@
                     <div class="form-group">
                         <label for="pass_old"> Mã sản phẩm:</label>
 <!--                     $hsTable["ma_sp"]-->
-                        <input type="text" class="form-control" value="" name="ma_sp" id="ma_sp" />
+                        <input type="text" class="form-control" value="<?php echo $hsTable["ma_sp"] ?>" name="ma_sp" id="ma_sp" />
                     </div>
                     <div class="form-group">
                         <label for="pass_new">Loại sản phẩm: </label>
                         <select id="san_pham_loai_guid" name="san_pham_loai_guid"  class="form-control">
                             <?php foreach($datasan_pham_loai_guid as $value):?>
-                            <option value="<?php echo $value["san_pham_loai_guid"] ?>" ><?php echo $value["ten_loai"] ?></option>
+                                <?php
+                                if($value["san_pham_loai_guid"] == $hsTable["san_pham_loai_guid"])
+                                {
+                                    echo ' <option seleted value="'.$value["san_pham_loai_guid"].'" >'.$value["ten_loai"].'</option>';
+                                }
+                                else
+                                {
+                                    echo ' <option value="'.$value["san_pham_loai_guid"].'" >'.$value["ten_loai"].'</option>';
+                                }
+                                ?>
+
                             <?php endforeach?>
                         </select>
-                        <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="" />
+                        <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="<?php echo $hsTable["san_pham_guid"] ?>" />
                     </div
                     <div class="form-group">
                         <label for="pass_new">Hình đại diện :</label>
@@ -38,17 +48,23 @@
                             <div id="bar"></div>
                             <div id="percent"></div >
                         </div>
-                        <input type="file" size="60" name="uploaded_image" id="uploaded_image"> <img alt="" width="50" name="uploaded_image1" id="uploaded_image1"  src="" />
-                    </div>
+                        <input type="file" size="60" name="uploaded_image" id="uploaded_image"> <img alt="" width="50" name="uploaded_image1" id="uploaded_image1"  src="item_image/icon_<?php echo $hsTable["hinh_dai_dien"] ?>" />
+                    </div><div class="form-group">
                     <div class='box-body pad'>
                         <form>
                             <textarea id="mo_ta_dai" name="mo_ta_dai" rows="10" cols="80">
-                              <?php echo $hsTable["mo_ta_dai"] ?>
+                                <?php echo $hsTable["mo_ta_dai"] ?>
                             </textarea>
                         </form>
+                    </div></div>
+                    <div class="form-group" style="padding: 6px 12px">
+                        <input class="btn btn-danger btn-lg" name="bsubmit" value=" Lưu " type="submit" />
+<!--                        <input class="btn btn-primary btn-lg .btncancel" name="btncancel" value=" Quay về " type="button" />-->
+<!--                        <input class="btn btn-primary btn-lg .btnaddcolor" name="btnaddcolor" value=" Thêm màu sắc " type="button" />-->
+<!--                        <input class="btn btn-primary btn-lg .btnprice" name="btnprice" value=" Cập nhật giá " type="button" />-->
                     </div>
 
-                    <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">
+
                 </div>
 <div id="divlist">
 
@@ -109,7 +125,10 @@
                 $("#bar").width('100%');
                 $("#percent").html('100%');
             //  listImage();
+               // $("#myForm").reset();
+               //document.getElementById("myForm").reset();
                 alert("Đã lưu thành công");
+
             },
             complete: function(response)
             {

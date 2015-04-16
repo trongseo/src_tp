@@ -27,7 +27,7 @@
                             <option value="<?php echo $value["color_id"] ?>" ><?php echo $value["color_name"] ?></option>
                             <?php endforeach?>
                         </select>
-                        <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="8522478" />
+                        <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="<?php echo $san_pham_guid ?>" />
                     </div
                     <div class="form-group">
                         <label for="pass_new">Hình :</label>
