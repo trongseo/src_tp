@@ -49,7 +49,7 @@ class TesttestController extends CController {
      }
     public function actionIndex() {
 
-        $tableName = "san_pham";
+        $tableName = "video_list";
        $this->insertGen($tableName);
     }
     public  function insertGen($tableName){
@@ -67,9 +67,11 @@ class TesttestController extends CController {
         $columnList ="";
         $inputList ='';
         $columnListPara ="";
+        $columnUpdate ="";
         $hsTestData=[];
         $removeColmn="date_create,date_update";
-        $strHs="";
+        $strHs=""; $strHssss="";
+        $strHs1="";
         foreach($result as $value){
             $column_name =  $value["column_name"];
             if(strpos($removeColmn,$column_name)===false){
@@ -78,7 +80,10 @@ class TesttestController extends CController {
                 $hsTestData[$column_name]=CommonDB::guid();
                 $dl ='$hsTable';
                 $dls ='$'.$column_name;
+                $columnUpdate.=$column_name."=:".$column_name.",";
                 $strHs .=$dl."[\"$column_name\"]=$dls ;\n";
+                $strHssss.=$dl."[\"$column_name\"]=xxx".$dls."xxx ;\n";
+                $strHs1 .=$dl."[\"$column_name\"]='' ;\n";
                 $me=$dl.'["'.$column_name.'"]';
                 $inputList .='<input type="text" value="'.$me.'" name="'.$column_name.'" id="'.$column_name.'">\n';
             }
@@ -88,7 +93,7 @@ class TesttestController extends CController {
         $queryInsert ="insert into ".$tableName."($columnList) values($columnListPara)";
 
         //echo $columnList,$columnListPara;
-        var_dump( $queryInsert, $strHs,$inputList);
+        var_dump( $queryInsert, $strHs,$inputList,$strHs1,$strHssss,$columnUpdate);
         //CommonDB::runSQL($queryInsert,$hsTestData);
     }
 
