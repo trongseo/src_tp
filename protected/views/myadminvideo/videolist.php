@@ -35,7 +35,7 @@
     </select>
 
 </div>
-                    </div>
+                    </div><a style="display:none"   href="index.php?r=myadminvideo/videoedit"> <b>Thêm mới tài liệu video</b></a>
                     <div id="divlist">
 
                     </div>

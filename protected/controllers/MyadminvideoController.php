@@ -121,6 +121,13 @@ class MyadminvideoController extends CController {
         if( isset($_GET["guid"]) ){
                 $guid = $_GET["guid"];
             $hsTable=CommonDB::GetDataRowKeyGuid("video_list",$guid);
+
+            if(count($hsTable)==0){
+                CommonDB::runSQLInsert("video_list",$guid);
+                $hsTable=CommonDB::GetDataRowKeyGuid("video_list",$guid);
+                CommonDB::runSQL("Update video_list set san_pham_guid='$guid' where video_list_guid='$guid' ",[]);
+                $hsTable["san_pham_guid"]=$guid;
+            }
             $hsTable["video_list_guid"]=$guid ;
             $hsTable["ma_sp"]=CommonDB::GetDataRowKeyGuid("san_pham",$hsTable["san_pham_guid"])["ma_sp"] ;
         }else{

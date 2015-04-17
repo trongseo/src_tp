@@ -91,7 +91,9 @@ class CommonDB {
         $command = Yii::app()->db->createCommand($sql);
         $result = $command->queryAll();
         //var_dump($result);
-        return $result[0];
+        if(count($result)>0)
+            return $result[0];
+        return [];
     }
     public static function GetDataRowKeyInt($tableName,$key){
         //sample

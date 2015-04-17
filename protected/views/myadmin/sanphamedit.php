@@ -58,8 +58,8 @@
                         </form>
                     </div></div>
                     <div class="form-group" style="padding: 6px 12px">
-                        <input class="btn btn-danger btn-lg" name="bsubmit" value=" Lưu " type="submit" />
-<!--                        <input class="btn btn-primary btn-lg .btncancel" name="btncancel" value=" Quay về " type="button" />-->
+                        <input class="btn btn-danger btn-lg" name="bsubmit"  id="bsubmit"  value=" Lưu " type="submit" />
+                     <input class="btn btn-primary btn-lg btncancel" name="btncancel" value=" Quay về " type="button" />
 <!--                        <input class="btn btn-primary btn-lg .btnaddcolor" name="btnaddcolor" value=" Thêm màu sắc " type="button" />-->
 <!--                        <input class="btn btn-primary btn-lg .btnprice" name="btnprice" value=" Cập nhật giá " type="button" />-->
                     </div>
@@ -115,12 +115,14 @@
     var src = document.getElementById("uploaded_image");
     var target = document.getElementById("uploaded_image1");
     showImage(src,target);
+    var IS_SUBMIT=0;
     $(document).ready(function()
     {
 
         var options = {
             beforeSend: function()
             {
+
                 $("#progress").show();
                 //clear everything
                 $("#bar").width('0%');
@@ -146,6 +148,8 @@
             },
             complete: function(response)
             {
+
+
                 $("#message").html("<font color='green'>"+response.responseText+"</font>");
             },
             error: function()
@@ -173,4 +177,16 @@ function listImage(){
     });
 
 }
+    $( "#bsubmit" ).mouseover(function() {
+        tinyMCE.triggerSave(false, true);
+        varTitle = $('<textarea />').html( $("#mo_ta_dai").val()).text();
+        $( "#mo_ta_dai").val(varTitle);
+
+    });
+    $(document).on('click', '.btncancel', function () {
+
+       document.location='index.php?r=myadmin/sanphamlist';
+
+    });
+
 </script>

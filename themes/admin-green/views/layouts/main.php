@@ -87,10 +87,24 @@
                     </a>
                 </li>
                 <li>
-                    <a href="pages/widgets.html">
-                        <i class="fa fa-th"></i> <span>Widgets</span> <small class="badge pull-right bg-green">new</small>
+                    <a href="index.php?r=myadmin/sanphamlist">
+                        <i class="fa fa-th"></i> <span>Quản lý sản phẩm</span>
+                        <small class="badge pull-right bg-green"></small>
                     </a>
                 </li>
+                <li>
+                    <a href="index.php?r=myadminvideo/videolist">
+                        <i class="fa fa-th"></i> <span>Tài liệu kỹ thuật</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?r=ajaxadmin/colorupdatelist">
+                        <i class="fa fa-th"></i> <span>colorupdatelist</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                </li>
+
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>

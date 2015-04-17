@@ -100,7 +100,8 @@ class AjaxadminController extends CController {
            // $hsTable["hinh_dai_dien"]=$imageName ;
             $hsTable["san_pham_loai_guid"]=$_REQUEST["san_pham_loai_guid"];
 
-            $hsTable["mo_ta_dai"]=$_REQUEST["mo_ta_dai"]; ;
+            $hsTable["mo_ta_dai"]=$_REQUEST["mo_ta_dai"];
+//            var_dump($hsTable);
             CommonDB::runSQL($queryIn,$hsTable);
 
             //update image
@@ -131,6 +132,13 @@ class AjaxadminController extends CController {
             //$image->scale(50);
 
         }
+    }
+
+    public function actionDeleteSanPham() {
+        $guid_id=$_REQUEST["guid_id"];
+        $query = "delete from san_pham where san_pham_guid='".$guid_id."' ";
+        CommonDB::runSQL($query,[]);
+        echo "ok";
     }
     public function actionDeleteimage() {
 

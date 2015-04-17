@@ -40,6 +40,8 @@
                         <input type="file" size="60" name="uploaded_image" id="uploaded_image"> <img alt="" width="50" name="uploaded_image1" id="uploaded_image1"  src="" />
                     </div>
                     <input class="btn btn-primary btn-lg" name="bsubmit" value=" Lưu " type="submit">
+
+                    <a href="index.php?r=myadmin/sanphamlist" class="btn btn-primary btn-lg "  > Quay về</a>
                 </div>
 <div id="divlist">
 
