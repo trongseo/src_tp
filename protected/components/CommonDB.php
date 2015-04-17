@@ -44,6 +44,22 @@ class CommonDB {
         //var_dump($result);
         return $result;
     }
+    public static function GetOneField($sql,$hashTable){
+        //sample
+        //cach goi
+        //$hashTable["subject"]="%test%";
+        //CommonDB::GetAll("Select *  from m_exam where subject like :subject ",$hashTable);
+        // cach nhan du lieu
+        // foreach($result as $value){
+        // echo $value["subject"];
+        //}
+
+        $command = Yii::app()->db->createCommand($sql);
+        CommonDB::setPara($command,$hashTable);
+        $result = $command->queryAll();
+        var_dump($result[0]);exit();
+        return $result[0];
+    }
     public static function GetDataRow($tableName,$whereNoAnd){
         //sample
         //cach goi
@@ -99,10 +115,13 @@ class CommonDB {
             $command->bindParam(":$key",$hashTable[$key], PDO::PARAM_STR);
         }
     }
-
     public static   function runSQL($sql,$hashTable){
         $command = Yii::app()->db->createCommand($sql);
         CommonDB::setPara($command,$hashTable);
+        $command->execute();
+    }
+    public static   function runSQLInsert($tableName,$guid){
+        $command = Yii::app()->db->createCommand("insert into ".$tableName."(".$tableName."_guid)  values('".$guid."')");
         $command->execute();
     }
     public function runSQLTransaction($hashTableQuery,$hashTableOfHashTable) {
