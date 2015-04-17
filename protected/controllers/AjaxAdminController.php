@@ -159,8 +159,61 @@ class AjaxadminController extends CController {
         $data = CommonDB::GetAll($query,[]);
         $this->render('hinhsanphamlist',array('data'=>$data));
 
-    }
 
+    }
+    public function actionColorUpdateList() {
+        $timer = new ClassTimer();
+
+        $timer->start();
+
+
+        if(isset($_REQUEST["add"])){
+            $colorId = CommonDB::guid();
+            $query="insert into m_color(color_id) values('$colorId')";
+           CommonDB::runSQL($query,[]);
+
+        }
+        if( isset($_POST['bsubmit'])) {
+            $this->colorUpdateList();
+        }
+        $query="Select * from m_color order by date_create";
+        $data = CommonDB::GetAll($query,[]);
+        $mydb = new MyDb();
+        $timer->stop();
+        echo $timer->result().'xxxxx';
+        $timer->start();
+       // $mydb->connect();
+        $mydb->query($query);
+        $timer->stop();
+        echo $timer->result();
+        $this->render('colorupdatelist',array('data'=>$data));
+    }
+    public function colorUpdateList() {
+        $i=0;
+        $list =[];
+        $forbiddenword = 'color_name_';
+        foreach($_POST as $key=>$value)
+        {
+            if(preg_match("/$forbiddenword/i", $key)){
+                $guid_id = substr($key,strlen ($forbiddenword));
+                if (!in_array($guid_id, $list)){
+                    $list[$i]=$guid_id;
+                    $i++;
+                    $query="update m_color set color_name=:color_name where color_id=:color_id";
+                    $hs["color_name"]=$_REQUEST["color_name_".$guid_id];
+                    $hs["color_id"]=$guid_id;
+                    CommonDB::runSQL($query,$hs);
+                }
+            }
+        }
+    }
+    public function actionColorDelete() {
+        $color_id = $_REQUEST["color_id"];
+        $query=" delete from m_color  where color_id=:color_id ";
+        $hs["color_id"]=$color_id;
+        CommonDB::runSQL($query,$hs);
+        echo "1";
+    }
 
 
 }

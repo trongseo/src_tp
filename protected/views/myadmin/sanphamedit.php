@@ -83,9 +83,23 @@
     $(function() {
         // Replace the <textarea id="editor1"> with a CKEditor
         // instance, using default configuration.
-        CKEDITOR.replace('mo_ta_dai');
-        //bootstrap WYSIHTML5 - text editor
-        $(".textarea").wysihtml5();
+//        CKEDITOR.replace('mo_ta_dai');
+//        //bootstrap WYSIHTML5 - text editor
+//        $(".textarea").wysihtml5();
+    });
+</script>
+<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+    tinymce.init({
+        selector: "textarea",
+        plugins: [
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen",
+            "jbimages insertdatetime media table contextmenu paste colorpicker "
+        ],
+        toolbar: "preview media insertfile jbimages undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+        relative_urls: false
+
     });
 </script>
 <script>

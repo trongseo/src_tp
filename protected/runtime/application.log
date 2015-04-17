@@ -1958,3 +1958,158 @@ REQUEST_URI=/index.php?r=myadmin/sanphamedit
 in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamedit.php (27)
 in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (22)
 in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/16 06:23:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sanphamedit?guid=EF8DD051-60EF-DB41-3502-3554194407DF".' in D:\project\github\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\github\src_tp\framework\web\CController.php(270): CController->missingAction('sanphamedit?gui...')
+#1 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamedit?gui...')
+#2 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#3 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\github\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamedit?guid=EF8DD051-60EF-DB41-3502-3554194407DF
+---
+2015/04/16 06:27:45 [error] [php] imagejpeg(item_image/daidien_45D2ACE6-D24E-CB65-149C-7A32C24BB3EF04_16_2015_062745am.jpg): failed to open stream: No such file or directory (D:\project\github\src_tp\protected\components\SimpleImage.php:62)
+Stack trace:
+#0 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionSanphamedit()
+#1 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\project\github\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#3 D:\project\github\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#4 D:\project\github\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#5 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\project\github\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/sanphamedit
+in D:\project\github\src_tp\protected\components\SimpleImage.php (62)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (119)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 09:19:44 [error] [exception.CException] exception 'CException' with message 'AjaxadminController cannot find the requested view "index".' in D:\project\github\src_tp\framework\web\CController.php:878
+Stack trace:
+#0 D:\project\github\src_tp\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#1 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(9): CController->render('index', Array)
+#2 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionIndex()
+#3 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\project\github\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\project\github\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('')
+#7 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/')
+#8 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\project\github\src_tp\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/
+---
+2015/04/16 09:19:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1. The SQL statement executed was: Select * from m_color order by date_create'.
+in D:\project\github\src_tp\protected\components\CommonDB.php (41)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (167)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 09:19:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1. The SQL statement executed was: Select * from m_color order by date_create'' in D:\project\github\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\github\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\github\src_tp\protected\components\CommonDB.php(41): CDbCommand->queryAll()
+#2 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(167): CommonDB::GetAll('Select * from m...', Array)
+#3 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionColorUpdateList()
+#4 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\github\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\github\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('colorupdatelist')
+#8 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/color...')
+#9 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\github\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/colorupdatelist
+---
+2015/04/16 09:35:52 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 1. The SQL statement executed was: insert into san_pham_hinh(color_guid_id) values('.DB344085_8CD1_5797_7B75_AD0F8A73AE5F.').
+in D:\project\github\src_tp\protected\components\CommonDB.php (105)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (168)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 09:35:52 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 1. The SQL statement executed was: insert into san_pham_hinh(color_guid_id) values('.DB344085_8CD1_5797_7B75_AD0F8A73AE5F.')' in D:\project\github\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\github\src_tp\protected\components\CommonDB.php(105): CDbCommand->execute()
+#1 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(168): CommonDB::runSQL('insert into san...', Array)
+#2 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionColorUpdateList()
+#3 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\project\github\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\project\github\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('colorupdatelist')
+#7 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/color...')
+#8 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\project\github\src_tp\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/colorupdatelist&add=1
+---
+2015/04/16 09:42:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "colorupdatelist?add=1".' in D:\project\github\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\github\src_tp\framework\web\CController.php(270): CController->missingAction('colorupdatelist...')
+#1 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('colorupdatelist...')
+#2 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/color...')
+#3 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\github\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/colorupdatelist?add=1
+---
+2015/04/16 10:42:08 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where color_id='2D0E1FA3_FE25_6000_10D6_C16A88E5F835'' at line 1. The SQL statement executed was:  delete m_color  where color_id=:color_id.
+in D:\project\github\src_tp\protected\components\CommonDB.php (106)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (201)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 10:42:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where color_id='2D0E1FA3_FE25_6000_10D6_C16A88E5F835'' at line 1. The SQL statement executed was:  delete m_color  where color_id=:color_id' in D:\project\github\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\github\src_tp\protected\components\CommonDB.php(106): CDbCommand->execute()
+#1 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(201): CommonDB::runSQL(' delete m_color...', Array)
+#2 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionColorDelete()
+#3 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\project\github\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\project\github\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('ColorDelete')
+#7 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/Color...')
+#8 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\project\github\src_tp\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/ColorDelete&color_id=2D0E1FA3_FE25_6000_10D6_C16A88E5F835
+HTTP_REFERER=http://localhost:1900/index.php?r=ajaxadmin/colorupdatelist
+---
+2015/04/16 10:43:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where color_id='2D0E1FA3_FE25_6000_10D6_C16A88E5F835'' at line 1. The SQL statement executed was:  delete m_color  where color_id=:color_id.
+in D:\project\github\src_tp\protected\components\CommonDB.php (106)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (201)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 10:43:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where color_id='2D0E1FA3_FE25_6000_10D6_C16A88E5F835'' at line 1. The SQL statement executed was:  delete m_color  where color_id=:color_id' in D:\project\github\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\github\src_tp\protected\components\CommonDB.php(106): CDbCommand->execute()
+#1 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(201): CommonDB::runSQL(' delete m_color...', Array)
+#2 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionColorDelete()
+#3 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\project\github\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\project\github\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\project\github\src_tp\framework\web\CWebApplication.php(282): CController->run('ColorDelete')
+#7 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/Color...')
+#8 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\project\github\src_tp\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/ColorDelete&color_id=2D0E1FA3_FE25_6000_10D6_C16A88E5F835
+HTTP_REFERER=http://localhost:1900/index.php?r=ajaxadmin/colorupdatelist
+---
+2015/04/16 11:05:10 [error] [php] include(timer.php): failed to open stream: No such file or directory (D:\project\github\src_tp\framework\YiiBase.php:427)
+Stack trace:
+#0 D:\project\github\src_tp\protected\controllers\AjaxAdminController.php(165): spl_autoload_call()
+#1 D:\project\github\src_tp\framework\web\actions\CInlineAction.php(49): AjaxadminController->actionColorUpdateList()
+#2 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 D:\project\github\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#4 D:\project\github\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#5 D:\project\github\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#6 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 D:\project\github\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/colorupdatelist
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (165)
+in D:\project\github\src_tp\index.php (17)
+2015/04/16 11:25:05 [error] [php] Undefined variable: timer (D:\project\github\src_tp\protected\components\MyDb.php:42)
+Stack trace:
+#0 D:\project\github\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\github\src_tp\framework\web\CController.php(286): AjaxadminController->runAction()
+#2 D:\project\github\src_tp\framework\web\CController.php(265): AjaxadminController->runActionWithFilters()
+#3 D:\project\github\src_tp\framework\web\CWebApplication.php(282): AjaxadminController->run()
+#4 D:\project\github\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\github\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\github\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=ajaxadmin/colorupdatelist
+in D:\project\github\src_tp\protected\components\MyDb.php (42)
+in D:\project\github\src_tp\protected\controllers\AjaxAdminController.php (186)
+in D:\project\github\src_tp\index.php (17)

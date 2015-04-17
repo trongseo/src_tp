@@ -23,6 +23,8 @@ class CommonDB {
 
         $guid1= str_replace("{","",$guid1 );
         $guid1= str_replace("}","",$guid1 );
+        $guid1= str_replace("-","_",$guid1 );
+        $guid1= str_replace(".","",$guid1 );
        // var_dump($guid1);
         return $guid1 ;
     }

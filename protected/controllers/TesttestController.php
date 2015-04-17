@@ -89,6 +89,7 @@ class TesttestController extends CController {
 
         //echo $columnList,$columnListPara;
         var_dump( $queryInsert, $strHs,$inputList);
+        echo "<pre>".$queryInsert, $strHs,$inputList;
         //CommonDB::runSQL($queryInsert,$hsTestData);
     }
 
