@@ -197,8 +197,7 @@
 <!-- AdminLTE App -->
 <script src="themes/admin-green/views/js/AdminLTE/app.js" type="text/javascript"></script>
 
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="themes/admin-green/views/js/AdminLTE/dashboard.js" type="text/javascript"></script>
+
 
 </body>
 </html>

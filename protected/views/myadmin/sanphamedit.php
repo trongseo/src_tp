@@ -39,7 +39,7 @@
                             <?php endforeach?>
                         </select>
                         <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="<?php echo $hsTable["san_pham_guid"] ?>" />
-                    </div
+                    </div>
                     <div class="form-group">
                         <label for="pass_new">Hình đại diện :</label>
                         <br/>

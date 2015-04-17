@@ -44,6 +44,7 @@ class CommonDB {
         //var_dump($result);
         return $result;
     }
+
     public static function GetOneField($sql,$hashTable){
         //sample
         //cach goi

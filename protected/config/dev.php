@@ -23,7 +23,7 @@ return CMap::mergeArray(
                 ),
             ),
         ),
-        'params' => array('listPerPage'=> 10,),
+        'params' => array('listPerPage'=> 1,),
     )
 
 );
