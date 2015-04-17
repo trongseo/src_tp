@@ -9,12 +9,19 @@ class MyadminvideoController extends CController {
         $this->render('index',  array('model'=>""));
     }
 
-    public function actionListVideo() {
 
-        $this->pageTitle = "Up hình sản phẩm ";
-        $dataColor = CommonDB::GetAll("Select * from m_color ",[]);
-        $san_pham_guid = $_REQUEST["san_pham_guid"];
-        $this->render('hinhsanpham',array('dataColor'=>$dataColor,'san_pham_guid'=>$san_pham_guid));
+    public function actionVideoList() {
+
+
+
+        $query="Select * from video_list ";
+        $data = CommonDB::GetAll($query,[]);
+        $hsTable["san_pham_loai_guid"]="";
+        $datasan_pham_loai_guid = CommonDB::GetAll("Select * from san_pham_loai ",[]);
+        $this->render('videolist',array('hsTable'=>$hsTable,'data'=>$data,'datasan_pham_loai_guid'=>$datasan_pham_loai_guid));
+
+
+
     }
     public function actionVideoedit() {
 
