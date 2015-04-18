@@ -196,6 +196,7 @@ class AjaxadminController extends CController {
         echo $timer->result();
         $this->render('colorupdatelist',array('data'=>$data));
     }
+	
     public function colorUpdateList() {
         $i=0;
         $list =[];
@@ -214,6 +215,59 @@ class AjaxadminController extends CController {
                 }
             }
         }
+    }
+	public function actionSizeList() {
+        $timer = new ClassTimer();
+
+        $timer->start();
+
+
+        if(isset($_REQUEST["add"])){
+            $guidId = CommonDB::guid();
+            $query="insert into m_size(m_size_guid) values('$guidId')";
+           CommonDB::runSQL($query,[]);
+
+        }
+        if( isset($_POST['bsubmit'])) {
+            $this->sizeUpdateList();
+        }
+        $query="Select * from m_size order by date_create";
+        $data = CommonDB::GetAll($query,[]);
+        //$mydb = new MyDb();
+        $timer->stop();
+        echo $timer->result().'xxxxx';
+        $timer->start();
+       // $mydb->connect();
+        //$mydb->query($query);
+        $timer->stop();
+        echo $timer->result();
+        $this->render('sizelist',array('data'=>$data));
+    }
+	 public function sizeUpdateList() {
+        $i=0;
+        $list =[];
+        $forbiddenword = 'size_text_';
+        foreach($_POST as $key=>$value)
+        {
+            if(preg_match("/$forbiddenword/i", $key)){
+                $guid_id = substr($key,strlen ($forbiddenword));
+                if (!in_array($guid_id, $list)){
+                    $list[$i]=$guid_id;
+                    $i++;
+                    $query="update m_size set size_text=:size_text where m_size_guid=:m_size_guid";
+                    $hs["size_text"]=$_REQUEST["size_text".$guid_id];
+                    $hs["m_size_guid"]=$guid_id;
+                    CommonDB::runSQL($query,$hs);
+                }
+            }
+        }
+    }
+	public function actionSizeDelete() {
+        $m_size_guid = $_REQUEST["m_size_guid"];
+        $query=" delete from m_color  where m_size_guid=:m_size_guid ";
+        $hs["m_size_guid"]=$m_size_guid;
+        CommonDB::runSQL($query,$hs);
+        echo "1";
     }
     public function actionColorDelete() {
         $color_id = $_REQUEST["color_id"];

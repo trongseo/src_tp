@@ -78,7 +78,7 @@
 
                                          <a href="index.php?r=myadmin/hinhsanpham&san_pham_guid=<?php echo $value["san_pham_guid"]?>" class="btn btn-info btn-sm" >Sửa Hình</a>
                                             <a href="index.php?r=myadminvideo/videoedit&guid=<?php echo $value["san_pham_guid"]?>" class="btn btn-info btn-sm" >Thêm video kỹ thuật</a>
-                                            <a href="index.php?r=myadmin/priceupdate&guid=<?php echo $value["san_pham_guid"]?>" class="btn btn-info btn-sm" >Cập nhật giá</a>
+                                            <a href="index.php?r=admingia/giasanpham&san_pham_guid=<?php echo $value["san_pham_guid"]?>" class="btn btn-info btn-sm" >Cập nhật giá</a>
 
                                         </td>
 

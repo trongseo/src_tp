@@ -104,7 +104,12 @@
                         <small class="badge pull-right bg-green"></small>
                     </a>
                 </li>
-
+                <li>
+                    <a href="index.php?r=ajaxadmin/sizelist">
+                        <i class="fa fa-th"></i> <span>size update</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                </li>
                 <li class="treeview">
                     <a href="#">
                         <i class="fa fa-bar-chart-o"></i>

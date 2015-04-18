@@ -2262,3 +2262,1051 @@ Stack trace:
 REQUEST_URI=/index.php?r=myadminvideo/AjaxVideoList&san_pham_loai_guid=1&rd=0.16547971009276807
 in D:\project\github\src_tp\protected\controllers\MyadminvideoController.php (54)
 in D:\project\github\src_tp\index.php (17)
+2015/04/17 14:36:06 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php:16)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/hinhsanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (16)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 14:38:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sanphamlist".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('sanphamlist')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamlist')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamlist
+---
+2015/04/17 14:45:35 [error] [php] Undefined index: video_list_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamlist.php:52)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): MyadminController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): MyadminController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(87): MyadminController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanPhamList()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamlist
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamlist.php (52)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (87)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 14:46:32 [error] [php] Undefined index: text_embed (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamlist.php:54)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): MyadminController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): MyadminController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(87): MyadminController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanPhamList()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamlist
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamlist.php (54)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (87)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 14:48:11 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "D:\project\aPhungTanPhucglass\1SOURCE\src_tp\assets" is invalid. Please make sure the directory exists and is writable by the Web server process.' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CAssetManager.php:138
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CAssetManager.php(123): CAssetManager->setBasePath('D:\\project\\aPhu...')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CAssetManager.php(217): CAssetManager->getBasePath()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\helpers\CHtml.php(1295): CAssetManager->publish('D:\\project\\aPhu...', false)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\widgets\pagers\CLinkPager.php(226): CHtml::asset('D:\\project\\aPhu...')
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\widgets\pagers\CLinkPager.php(216): CLinkPager::registerCssFile(NULL)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\widgets\pagers\CLinkPager.php(131): CLinkPager->registerClientScript()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CBaseController.php(173): CLinkPager->run()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\myadmin\sanphamlist.php(79): CBaseController->widget('CLinkPager', Array)
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CBaseController.php(126): require('D:\\project\\aPhu...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\project\\aPhu...', Array, true)
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): CBaseController->renderFile('D:\\project\\aPhu...', Array, true)
+#11 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): CController->renderPartial('sanphamlist', Array, true)
+#12 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(87): CController->render('sanphamlist', Array)
+#13 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanPhamList()
+#14 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamlist')
+#18 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#19 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#21 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamlist
+---
+2015/04/17 15:10:18 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=902B674D-DAB9-BD67-A1C7-5F7EAB95B064
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:15:09 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php:63)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamlist
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (63)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:23:54 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php:16)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/hinhsanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (16)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:36:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "deletesanpham".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('deletesanpham')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('deletesanpham')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/delet...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/deletesanpham&guid_id=28A4B790-D592-AC49-473A-9E42222C4C2E&imagename=
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist&ma_sp=&page=4
+---
+2015/04/17 16:44:38 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:127)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (127)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:45:10 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:127)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (127)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:45:28 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&san_pham_guid=
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (127)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:47:43 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:127)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (127)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:49:25 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&san_pham_guid==902B674D-DAB9-BD67-A1C7-5F7EAB95B064
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (127)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:57:57 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:58:13 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:58:14 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:58:15 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:58:15 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:58:43 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=902B674D-DAB9-BD67-A1C7-5F7EAB95B064
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 16:59:11 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:01:50 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:01:52 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:94)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (94)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (123)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:04:23 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:130)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (130)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:06:25 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:131)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (131)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:07:14 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:131)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=28A4B790-D592-AC49-473A-9E42222C4C2E
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (131)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:08:09 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php:131)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminvideoController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminvideoController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminvideoController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadminvideo/videoedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminvideoController.php (131)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/17 17:17:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "colorupdatelist".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('colorupdatelist')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('colorupdatelist')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/colorup...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/colorupdatelist
+---
+2015/04/17 17:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ajaxmyadmin/colorupdatelist".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxmyadmin/col...')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=ajaxmyadmin/colorupdatelist
+---
+2015/04/17 17:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ajaxmyadmin/colorupdatelist".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxmyadmin/col...')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=ajaxmyadmin/colorupdatelist
+---
+2015/04/17 17:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceupdate".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('priceupdate')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('priceupdate')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/priceup...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/priceupdate&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist
+---
+2015/04/18 10:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sizlist".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('sizlist')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sizlist')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/sizli...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/sizlist
+---
+2015/04/18 10:27:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_guid='45D2ACE6-D24E-CB65-149C-7A32C24BB3EF'' at line 1. The SQL statement executed was: Select * from san_pham  where 1=1 AND san_pham _guid='45D2ACE6-D24E-CB65-149C-7A32C24BB3EF'.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (92)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (17)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 10:27:56 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_guid='45D2ACE6-D24E-CB65-149C-7A32C24BB3EF'' at line 1. The SQL statement executed was: Select * from san_pham  where 1=1 AND san_pham _guid='45D2ACE6-D24E-CB65-149C-7A32C24BB3EF'' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(92): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(17): CommonDB::GetDataRowKeyGuid('san_pham ', '45D2ACE6-D24E-C...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionHinhsanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('hinhsanpham')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/hinhsan...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=myadmin/hinhsanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist
+---
+2015/04/18 11:23:43 [error] [php] Undefined variable: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php:21)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(38): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionGiasanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php (21)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (38)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:25:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "priceupdate".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('priceupdate')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('priceupdate')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/priceup...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/priceupdate&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist
+---
+2015/04/18 11:26:35 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:22)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (22)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:27:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "giasanpham".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('giasanpham')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('giasanpham')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/giasanp...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist
+---
+2015/04/18 11:27:44 [error] [php] Undefined variable: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php:30)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(40): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionGiasanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php (30)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (40)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:28:30 [error] [php] Undefined variable: san_pham_price_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php:31)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(40): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionGiasanpham()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanpham.php (31)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (40)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:48:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "ajaxeditgia".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('ajaxeditgia')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('ajaxeditgia')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/ajaxed...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=admingia/ajaxeditgia
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:48:38 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:34)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (34)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:50:01 [error] [php] Undefined index: ma_sp (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:34)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/giasanpham
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (34)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:52:19 [error] [php] Undefined index: guid_id (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:58)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxupdate
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (58)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:53:33 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: Update  san_pham_price set san_pham_guid=:san_pham_guid,color_id=:color_id,m_size_guid=:m_size_guid,sp_price=:sp_price where san_pham_price_guid=:san_pham_price_guid.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (124)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (71)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:53:33 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: Update  san_pham_price set san_pham_guid=:san_pham_guid,color_id=:color_id,m_size_guid=:m_size_guid,sp_price=:sp_price where san_pham_price_guid=:san_pham_price_guid' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(124): CDbCommand->execute()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(71): CommonDB::runSQL('Update  san_pha...', Array)
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionAjaxupdate()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('ajaxupdate')
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/ajaxup...')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#10 {main}
+REQUEST_URI=/index.php?r=admingia/ajaxupdate
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:56:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,san_pham_guid,color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:56:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,san_pham_guid,color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:56:16 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,san_pham_guid,color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:56:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,san_pham_guid,color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:57:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:57:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:57:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:57:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text`, aaa. FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:57:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_g' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:57:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_g' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:57:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_g' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:57:44 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_g' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color` aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:58:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_gu' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:58:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_gu' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 11:58:20 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_gu' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 11:58:20 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_gu' at line 1. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,m_size_guid,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa `,m_color aaa
+WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and  a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 12:00:11 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.san_pham_guid='' order by date_create' at line 2. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:00:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.san_pham_guid='' order by date_create' at line 2. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 12:00:12 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.san_pham_guid='' order by date_create' at line 2. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:00:12 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'a.san_pham_guid='' order by date_create' at line 2. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 12:00:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_create' in order clause is ambiguous. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:00:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_create' in order clause is ambiguous. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 12:00:30 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_create' in order clause is ambiguous. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and a.san_pham_guid='' order by date_create.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (27)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:00:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'date_create' in order clause is ambiguous. The SQL statement executed was:  SELECT san_pham_price_guid,a.san_pham_guid,a.color_id,sp_price,aa.`size_text` FROM san_pham_price a ,`m_size` aa ,m_color aaa
+ WHERE a.`color_id`=aaa.color_id AND a.`m_size_guid`=aa.`m_size_guid` and a.san_pham_guid='' order by date_create' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(27): CommonDB::GetAll(' SELECT san_pha...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('loadallprice')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('admingia/loadal...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+HTTP_REFERER=http://localhost:8222/index.php?r=admingia/giasanpham&san_pham_guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/18 12:00:44 [error] [php] Undefined index: san_pham_hinh_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php:13)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(28): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php (13)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (28)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:00:44 [error] [php] Undefined index: san_pham_hinh_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php:13)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(28): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php (13)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (28)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:01:25 [error] [php] Undefined index: color_name (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php:15)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(28): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php (15)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (28)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:01:25 [error] [php] Undefined index: color_name (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php:15)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(869): AdmingiaController->renderFile()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(782): AdmingiaController->renderPartial()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php(28): AdmingiaController->render()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): AdmingiaController->actionLoadallprice()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/loadallprice&san_pham_guid=&color_id=
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\views\admingia\giasanphamlist.php (15)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (28)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:23:22 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:79)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/AjaxGiasanpham&color_id=2&m_size_guid=AF9397E4_1626_0627_3CF6_2B1D2E9A3D56
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (79)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (57)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 12:24:31 [error] [php] Undefined offset: 0 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php:79)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/AjaxGiasanpham&color_id=2&m_size_guid=AF9397E4_1626_0627_3CF6_2B1D2E9A3D56
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (79)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (57)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:23:16 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=6A366097_D0DC_EEBA_451B_1F8FA75A9A27
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:23:18 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=8CB294E2_CB91_4AF4_C4C4_22EDF8758319
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:23:19 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=23CF8890_D4BC_D0E0_167A_7D09DF82D3D7
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:23:20 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=6A366097_D0DC_EEBA_451B_1F8FA75A9A27
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:23:28 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=23CF8890_D4BC_D0E0_167A_7D09DF82D3D7
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:24:09 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=23CF8890_D4BC_D0E0_167A_7D09DF82D3D7
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:24:47 [error] [php] Undefined index: guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:62)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/ajaxGiasanphamguid&guid_id=23CF8890_D4BC_D0E0_167A_7D09DF82D3D7
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (62)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:54:33 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:56)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/AjaxGiasanpham&color_id=2&m_size_guid=32F9A582_491E_D501_8D5E_5568DFEFF85F
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (56)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/18 13:54:37 [error] [php] Undefined index: san_pham_guid (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php:56)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): AdmingiaController->runAction()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): AdmingiaController->runActionWithFilters()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): AdmingiaController->run()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=admingia/AjaxGiasanpham&color_id=3&m_size_guid=32F9A582_491E_D501_8D5E_5568DFEFF85F
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\AdmingiaController.php (56)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)

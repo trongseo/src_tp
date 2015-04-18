@@ -18,7 +18,7 @@
 
                     <div class="form-group">
                         <label for="pass_old"> Mã sản phẩm:</label>
-                       TV203
+                        <?php echo $ma_sp ?>
                     </div>
                     <div class="form-group">
                         <label for="pass_new">Chọn màu sắc: </label>
@@ -28,7 +28,7 @@
                             <?php endforeach?>
                         </select>
                         <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="<?php echo $san_pham_guid ?>" />
-                    </div
+                    </div>
                     <div class="form-group">
                         <label for="pass_new">Hình :</label>
                         <br/>

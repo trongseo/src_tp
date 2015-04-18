@@ -49,7 +49,7 @@ class TesttestController extends CController {
      }
     public function actionIndex() {
 
-        $tableName = "video_list";
+        $tableName = $_REQUEST["tb"];
        $this->insertGen($tableName);
     }
     public  function insertGen($tableName){
