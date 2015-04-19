@@ -43,8 +43,8 @@
 
                         </div>
                         <div class="form-group" style="padding: 6px 12px">
-                            <input class="btn btn-danger btn-lg" name="bsubmit" value=" Lưu " type="submit" />
-       <input class="btn btn-primary btn-lg .btncancel" onclick="javascript:window.location='index.php?r=myadminvideo/videolist'" name="btncancel" value=" Quay về " type="button" />
+                            <input class="btn btn-danger btn-lg" name="bsubmit"  id="bsubmit" value=" Lưu " type="submit" />
+       <input class="btn btn-primary btn-lg .btncancel" onclick="javascript:window.location=window.history.back();" name="btncancel" value=" Quay về " type="button" />
                             <!--                        <input class="btn btn-primary btn-lg .btnaddcolor" name="btnaddcolor" value=" Thêm màu sắc " type="button" />-->
                             <!--                        <input class="btn btn-primary btn-lg .btnprice" name="btnprice" value=" Cập nhật giá " type="button" />-->
                         </div>
@@ -67,6 +67,20 @@
 <!-- AdminLTE App -->
 <script src="themes/admin-green/views/js/AdminLTE/app.js" type="text/javascript"></script>
 <!-- Bootstrap WYSIHTML5 -->
+<script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
+<script type="text/javascript">
+    tinymce.init({
+        selector: "#mo_ta", fontsize_formats: "12pt 14pt 18pt 24pt 36pt",
+        plugins: [
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen",
+            "jbimages insertdatetime media table contextmenu paste colorpicker "
+        ],
+        toolbar: "preview media insertfile jbimages undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+        relative_urls: false
+
+    });
+</script>
 
 <script type="text/javascript">
     $(function() {
@@ -86,6 +100,8 @@
         var options = {
             beforeSend: function()
             {
+				
+        $( "#mo_ta").val(varTitle);
                 $("#progress").show();
                 //clear everything
                 $("#bar").width('0%');
@@ -125,6 +141,11 @@
 
 
     });
+ $( "#bsubmit" ).mouseover(function() {
+        tinyMCE.triggerSave(false, true);
+        varTitle = $('<textarea />').html( $("#mo_ta").val()).text();
+        $( "#mo_ta").val(varTitle);
 
+    });
 
 </script>

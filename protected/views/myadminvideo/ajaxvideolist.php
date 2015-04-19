@@ -26,7 +26,7 @@
 
                                 </tbody></table>
                         </div>
-
+<div class="form-group">
                         <?php
 
                         $this->widget('CLinkPager', array(
@@ -38,19 +38,10 @@
                             'header'=>'',
                             'htmlOptions'=>array('class'=>'yiiPager'),
                         ));
-                        ?>
+                        ?> </div>
 <script>
-    $(function() {
-        jQuery('.yiiPager .page a').each(function() {
-            console.log( $(this).attr('href'));
-            $(this).attr("href","javascript:Gotozzz('"+$(this).attr('href') +"');");
-        });
 
 
-    });
-    function GoTozzz(ahref){
-        alert(ahref);
-    };
 
 
 </script>

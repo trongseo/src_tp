@@ -99,6 +99,36 @@
                     </a>
                 </li>
                 <li>
+                    <a href="index.php?r=adminchung/gioithieu">
+                        <i class="fa fa-th"></i> <span>Quản lý chung</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                    <ul>
+                        <li>
+                            <a href="index.php?r=adminchung/dathang">
+                                <i class="fa "></i> <span>Danh đặt hàng </span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a></li>
+                        <li>
+                            <a href="index.php?r=adminchung/gioithieu">
+                                <i class="fa"></i> <span>Giới thiệu</span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a></li>
+
+                        <li>
+                            <a href="index.php?r=adminchung/lienhe">
+                                <i class="fa "></i> <span>Danh sách liên hệ </span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a></li>
+
+                        <li>
+                            <a href="index.php?r=adminchung/iplist">
+                                <i class="fa "></i> <span>Danh sách Ip vào web </span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a></li>
+                    </ul>
+                </li>
+                <li>
                     <a href="index.php?r=ajaxadmin/colorupdatelist">
                         <i class="fa fa-th"></i> <span>colorupdatelist</span>
                         <small class="badge pull-right bg-green"></small>

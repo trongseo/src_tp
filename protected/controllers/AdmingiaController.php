@@ -45,6 +45,7 @@ class AdmingiaController extends CController {
             $hsTable=CommonDB::GetDataRowKeyGuid("san_pham_price",$san_pham_price_guid);
 
         }
+        $hsTable["hdsp_price"]=$hsTable["sp_price"] ;
         $this->pageTitle = "Cập nhật giá sản phẩm ";
         $datam_size = CommonDB::GetAll("Select * from m_size order by date_create ",[]);
         $dataColor = CommonDB::GetAll("Select * from m_color ",[]);
@@ -80,7 +81,7 @@ class AdmingiaController extends CController {
             $hsTable["san_pham_guid"]=$_REQUEST["san_pham_guid"] ;
             $hsTable["color_id"]=$_REQUEST["color_id"] ;
             $hsTable["m_size_guid"]=$_REQUEST["m_size_guid"] ;
-            $hsTable["sp_price"]=$_REQUEST["sp_price"] ;
+            $hsTable["sp_price"]= str_replace(".","",$_REQUEST["sp_price"])  ;
             CommonDB::runSQL($queryIn,$hsTable);
             echo "1";
 

@@ -29,6 +29,9 @@
                             <option value="<?php echo $value["color_id"] ?>" ><?php echo $value["color_name"] ?></option>
                             <?php endforeach?>
                         </select>
+
+                        <input type="hidden" id="hdsp_price" name="hdsp_price" value="<?php echo $hsTable["hdsp_price"] ?>" />
+
                         <input type="hidden" id="san_pham_guid" name="san_pham_guid" value="<?php echo $hsTable["san_pham_guid"] ?>" />
                         <input type="hidden" id="san_pham_price_guid" name="san_pham_price_guid" value="<?php echo $hsTable["san_pham_price_guid"]  ?>" />
                     </div>
@@ -64,7 +67,10 @@
 
 <script>
 
-
+    String.prototype.replaceAll = function (find, replace) {
+        var str = this;
+        return str.replace(new RegExp(find.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g'), replace);
+    };
     $(document).ready(function()
     {
         $('#sp_price').priceFormat({
@@ -73,18 +79,12 @@
             centsSeparator: ',', centsLimit: 0,
             thousandsSeparator: '.'
         });
-        $( "#bsubmit" ).mouseover(function() {
-           var unmask = $('#sp_price').val();   alert(unmask);
-            var find = '.';
-            var re = new RegExp(find, 'g');
 
-            str = unmask.replace(re, '');
-          //  alert(str);
-        });
 
         var options = {
             beforeSend: function()
             {
+
 
                 $("#progress").show();
                 //clear everything
@@ -128,6 +128,18 @@
     $( "#m_size_guid" ).change(function() {
         loadPrice();
     });
+
+    Number.prototype.formatMoney = function(c, d, t){
+        var n = this,
+            c = isNaN(c = Math.abs(c)) ? 2 : c,
+            d = d == undefined ? "." : d,
+            t = t == undefined ? "," : t,
+            s = n < 0 ? "-" : "",
+            i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+            j = (j = i.length) > 3 ? j % 3 : 0;
+        return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+    };
+
 function loadPrice(){
 
     //$('#divlist').html('loading...');
@@ -145,10 +157,16 @@ function loadPrice(){
             var obj = jQuery.parseJSON(data );//obj[0]["san_pham_price_guid"]: "F6CB325D_FA65_F414_8643_D267AA6D23
 
             $("#san_pham_price_guid").val(obj[0]["san_pham_price_guid"]);
-            $("#sp_price").val(obj[0]["sp_price"]);
+            sppri = parseFloat( obj[0]["sp_price"]);
+            sppri= sppri.formatMoney(0, ',', '.');
+            $("#sp_price").val(sppri);
+
+
         }
+
     });
 }
+
     $(document).on('click', '.cssedit', function () {
         guid_id = $(this).attr("guid_id");
         //load data
@@ -163,8 +181,10 @@ function loadPrice(){
             }else{
                 var obj = jQuery.parseJSON(data );//obj[0]["san_pham_price_guid"]: "F6CB325D_FA65_F414_8643_D267AA6D23
 
-                $("#san_pham_price_guid").val(obj[0]["san_pham_price_guid"]);
-                $("#sp_price").val(obj[0]["sp_price"]);
+                $("#san_pham_price_guid").val(obj[0]["san_pham_price_guid"]);//.formatMoney(2, '.', ',');
+                sppri = parseFloat( obj[0]["sp_price"]);
+                sppri= sppri.formatMoney(0, ',', '.');
+                $("#sp_price").val(sppri);
                 $("#m_size_guid").val(obj[0]["m_size_guid"]);
                 $("#color_id").val(obj[0]["color_id"]);
             }
