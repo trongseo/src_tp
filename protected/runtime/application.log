@@ -3522,3 +3522,212 @@ Stack trace:
 REQUEST_URI=/index.php?r=adminchung/ajaxupdate
 HTTP_REFERER=http://localhost:8222/index.php?r=adminchung/edit&guid=1
 ---
+2015/04/19 05:27:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gioithieu".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('gioithieu')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('gioithieu')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('adminchung/gioi...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=adminchung/gioithieu
+HTTP_REFERER=http://localhost:8222/index.php?r=adminchung/edit&guid=1
+---
+2015/04/19 05:30:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "gioithieu".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('gioithieu')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('gioithieu')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('adminchung/gioi...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=adminchung/gioithieu
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist
+---
+2015/04/19 06:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmuc".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmuc')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmuc')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/danhmuc')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/danhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamedit&guid=45D2ACE6-D24E-CB65-149C-7A32C24BB3EF
+---
+2015/04/19 06:00:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmucsanpham".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmucsanpham')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmucsanpham')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/danhmuc...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/danhmucsanpham
+---
+2015/04/19 06:05:30 [error] [php] Undefined index: stt_62E1B_FEBF_459B_3061_C5FDFA6E5E18 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php:173)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamdanhmuc
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (173)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (140)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/19 06:05:52 [error] [php] Undefined index: stt_62E1B_FEBF_459B_3061_C5FDFA6E5E18 (D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php:173)
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): MyadminController->runAction()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): MyadminController->runActionWithFilters()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): MyadminController->run()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CWebApplication->run()
+REQUEST_URI=/index.php?r=myadmin/sanphamdanhmuc
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (173)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (140)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/19 06:07:42 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: update adanhmuc set stt=:stt where adanhmuc_guid=:adanhmuc_guid.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (124)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (178)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (140)
+2015/04/19 06:07:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens. The SQL statement executed was: update adanhmuc set stt=:stt where adanhmuc_guid=:adanhmuc_guid' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(124): CDbCommand->execute()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(178): CommonDB::runSQL('update adanhmuc...', Array)
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(140): MyadminController->SanphamdanhmucUpdate()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanphamdanhmuc()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamdanhmuc')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamdanhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:08:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update adanhmuc set stt=:stt where adanhmuc_guid=:adanhmuc_guid.
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (124)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (178)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (140)
+2015/04/19 06:08:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: update adanhmuc set stt=:stt where adanhmuc_guid=:adanhmuc_guid' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(124): CDbCommand->execute()
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(178): CommonDB::runSQL('update adanhmuc...', Array)
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(140): MyadminController->SanphamdanhmucUpdate()
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanphamdanhmuc()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamdanhmuc')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamdanhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:15:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmuc".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmuc')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmuc')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/danhmuc')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/danhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamlist&page=2
+---
+2015/04/19 06:18:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmucdelete".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmucdelete')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmucdelete')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/danhm...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/danhmucdelete&san_pham_loai_guid=8F5CF9B1_AD33_1AAA_4369_5E3A2C710029
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:18:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmucdelete".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmucdelete')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmucdelete')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/danhm...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/danhmucdelete&san_pham_loai_guid=D729A3E4_D694_6AD1_1279_8A3106E4C0E6
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:18:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmucdelete".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmucdelete')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmucdelete')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/danhm...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/danhmucdelete&san_pham_loai_guid=D729A3E4_D694_6AD1_1279_8A3106E4C0E6
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:18:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmucdelete".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmucdelete')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmucdelete')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('ajaxadmin/danhm...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=ajaxadmin/danhmucdelete&san_pham_loai_guid=D729A3E4_D694_6AD1_1279_8A3106E4C0E6
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:20:13 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stt' in 'order clause'. The SQL statement executed was: Select * from san_pham_loai order by stt .
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php (43)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php (145)
+in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php (17)
+2015/04/19 06:20:13 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'stt' in 'order clause'. The SQL statement executed was: Select * from san_pham_loai order by stt ' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\components\CommonDB.php(43): CDbCommand->queryAll()
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\protected\controllers\MyadminController.php(145): CommonDB::GetAll('Select * from s...', Array)
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\actions\CInlineAction.php(49): MyadminController->actionSanphamdanhmuc()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('sanphamdanhmuc')
+#8 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/sanpham...')
+#9 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#11 {main}
+REQUEST_URI=/index.php?r=myadmin/sanphamdanhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:23:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "danhmuc".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('danhmuc')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('danhmuc')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('myadmin/danhmuc')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=myadmin/danhmuc
+HTTP_REFERER=http://localhost:8222/index.php?r=myadmin/sanphamdanhmuc
+---
+2015/04/19 06:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dathang".' in D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php:483
+Stack trace:
+#0 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CController.php(270): CController->missingAction('dathang')
+#1 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(282): CController->run('dathang')
+#2 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\web\CWebApplication.php(141): CWebApplication->runController('adminchung/dath...')
+#3 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\project\aPhungTanPhucglass\1SOURCE\src_tp\index.php(17): CApplication->run()
+#5 {main}
+REQUEST_URI=/index.php?r=adminchung/dathang
+HTTP_REFERER=http://localhost:8222/index.php?r=myadminvideo/videolist
+---

@@ -26,7 +26,7 @@
                     </div></div>
                     <div class="form-group" style="padding: 6px 12px">
                         <input class="btn btn-danger btn-lg" name="bsubmit"  id="bsubmit"  value=" Lưu " type="submit" />
-                     <input class="btn btn-primary btn-lg btncancel" name="btncancel" value=" Quay về " type="button" />
+<!--                     <input class="btn btn-primary btn-lg btncancel" name="btncancel" value=" Quay về " type="button" />-->
 <!--                        <input class="btn btn-primary btn-lg .btnaddcolor" name="btnaddcolor" value=" Thêm màu sắc " type="button" />-->
 <!--                        <input class="btn btn-primary btn-lg .btnprice" name="btnprice" value=" Cập nhật giá " type="button" />-->
                     </div>

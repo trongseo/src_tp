@@ -90,7 +90,28 @@
                     <a href="index.php?r=myadmin/sanphamlist">
                         <i class="fa fa-th"></i> <span>Quản lý sản phẩm</span>
                         <small class="badge pull-right bg-green"></small>
-                    </a>
+                    </a> <ul>
+                        <li>
+                            <a href="index.php?r=myadmin/sanphamedit">
+                                <i class="fa"></i> <span>Thêm sản phẩm</span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?r=myadmin/sanphamlist">
+                                <i class="fa "></i> <span>Danh sách sản phẩm</span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?r=myadmin/sanphamdanhmuc">
+                                <i class="fa "></i> <span>Danh mục sản phẩm</span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a>
+                        </li>
+
+                        </ul>
+
                 </li>
                 <li>
                     <a href="index.php?r=myadminvideo/videolist">
@@ -99,7 +120,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="index.php?r=adminchung/gioithieu">
+                    <a href="index.php?r=adminchung/dathang">
                         <i class="fa fa-th"></i> <span>Quản lý chung</span>
                         <small class="badge pull-right bg-green"></small>
                     </a>
@@ -110,7 +131,7 @@
                                 <small class="badge pull-right bg-green"></small>
                             </a></li>
                         <li>
-                            <a href="index.php?r=adminchung/gioithieu">
+                            <a href="index.php?r=adminchung/edit&guid=1">
                                 <i class="fa"></i> <span>Giới thiệu</span>
                                 <small class="badge pull-right bg-green"></small>
                             </a></li>

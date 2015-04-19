@@ -128,5 +128,68 @@ class MyadminController extends CController {
         }
         $this->render('changepassword',array('model'=>$model));
     }
+    public function actionSanphamdanhmuc() {
+
+        $this->pageTitle = "Cập nhật danh mục";
+        if(isset($_REQUEST["add"])){
+            $guidId = CommonDB::guid();
+            $query="insert into san_pham_loai(san_pham_loai_guid) values('$guidId')";
+            CommonDB::runSQL($query,[]);
+            $this->redirect("index.php?r=myadmin/sanphamdanhmuc");
+            return;
+        }
+        if( isset($_POST['bsubmit'])) {
+            $this->SanphamdanhmucUpdate();
+        }
+        $query="Select * from san_pham_loai order by so_thu_tu ";
+        $data = CommonDB::GetAll($query,[]);
+        $this->render('sanphamdanhmuc',array('data'=>$data));
+    }
+    public function SanphamdanhmucUpdate() {
+        $i=0;
+        $list =[];
+        $forbiddenword = 'ten_loai_';
+        foreach($_POST as $key=>$value)
+        {
+            if(preg_match("/$forbiddenword/i", $key)){
+                $guid_id = substr($key,strlen ($forbiddenword));
+                if (!in_array($guid_id, $list)){
+                    $list[$i]=$guid_id;
+                    $i++;
+                    $query="update san_pham_loai set ten_loai=:ten_loai where san_pham_loai_guid=:san_pham_loai_guid";
+                    $hs["ten_loai"]=$_REQUEST["ten_loai_".$guid_id];
+                    $hs["san_pham_loai_guid"]=$guid_id;
+                    CommonDB::runSQL($query,$hs);
+                }
+            }
+
+        }
+        $i=0;
+        $list =[];
+        $forbiddenword1 = 'so_thu_tu_';
+        foreach($_POST as $key=>$value)
+        {
+            if(preg_match("/$forbiddenword1/i", $key)){
+                $guid_id = substr($key,strlen ($forbiddenword1));
+                if (!in_array($guid_id, $list)){
+                    $list[$i]=$guid_id;
+                    $i++;
+                    $query="update san_pham_loai set so_thu_tu=:so_thu_tu where san_pham_loai_guid=:san_pham_loai_guid";
+                    $hs1["so_thu_tu"]=$_REQUEST["so_thu_tu_".$guid_id];
+                    $hs1["san_pham_loai_guid"]=$guid_id;
+                    CommonDB::runSQL($query,$hs1);
+                }
+            }
+
+        }
+
+    }
+    public function actionDanhMucDelete() {
+        $san_pham_loai_guid = $_REQUEST["san_pham_loai_guid"];
+        $query=" delete from san_pham_loai  where san_pham_loai_guid=:san_pham_loai_guid ";
+        $hs["san_pham_loai_guid"]=$san_pham_loai_guid;
+        CommonDB::runSQL($query,$hs);
+        echo "1";
+    }
 
 }
