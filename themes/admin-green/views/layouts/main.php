@@ -82,8 +82,8 @@
             <!-- sidebar menu: : style can be found in sidebar.less -->
             <ul class="sidebar-menu">
                 <li class="active">
-                    <a href="index.html">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                    <a href="/">
+                        <i class="fa fa-dashboard"></i> <span>Trang chủ </span>
                     </a>
                 </li>
                 <li>
@@ -109,6 +109,20 @@
                                 <small class="badge pull-right bg-green"></small>
                             </a>
                         </li>
+						
+						<li>
+                    <a href="index.php?r=ajaxadmin/colorupdatelist">
+                        <i class="fa fa-thaa"></i> <span>Danh mục màu sản phẩm</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                </li>
+                <li>
+                    <a href="index.php?r=ajaxadmin/sizelist">
+                        <i class="fa fa-thaa"></i> <span>Danh mục kích cỡ</span>
+                        <small class="badge pull-right bg-green"></small>
+                    </a>
+                </li>
+				
 
                         </ul>
 
@@ -126,8 +140,8 @@
                     </a>
                     <ul>
                         <li>
-                            <a href="index.php?r=adminchung/dathang">
-                                <i class="fa "></i> <span>Danh đặt hàng </span>
+                            <a href="index.php?r=adminchung/dondathang">
+                                <i class="fa "></i> <span>Đơn đặt hàng </span>
                                 <small class="badge pull-right bg-green"></small>
                             </a></li>
                         <li>
@@ -145,6 +159,11 @@
                         <li>
                             <a href="index.php?r=adminchung/iplist">
                                 <i class="fa "></i> <span>Danh sách Ip vào web </span>
+                                <small class="badge pull-right bg-green"></small>
+                            </a></li>
+							  <li>
+                            <a href="index.php?r=adminchung/edit&guid=2&is_no=1;">
+                                <i class="fa "></i> <span>Cập nhật email nhận tin</span>
                                 <small class="badge pull-right bg-green"></small>
                             </a></li>
                     </ul>

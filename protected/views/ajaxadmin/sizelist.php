@@ -1,3 +1,16 @@
+<section class="content-header">
+    <h1>
+        <?php echo $this->pageTitle; ?>
+
+    </h1>
+
+</section>
+<section class="content  bordertop">
+    <div class="row">
+        <div class="col-md-6" style="width: 80%">
+            <a href="index.php?r=ajaxadmin/sizelist&add=1"> <b>Thêm mới </b></a>
+            <div class="panel panel-default">
+
 <form id="myForm" action="index.php?r=ajaxadmin/sizelist" method="post" enctype="multipart/form-data">
 <div class="box-body">
     <table class="table table-bordered">
@@ -12,7 +25,7 @@
 
             <tr class="remove<?php echo $value["m_size_guid"]?>">
                 <td> <?php echo $numst++; ?></td>
-                <td><input type="text" value="<?php echo $value["mo_ta"]?>" id="mo_ta_<?php echo $value["m_size_guid"]?>" name="size_text_<?php echo $value["m_size_guid"]?>" />
+                <td><input type="text" value="<?php echo $value["size_text"]?>" id="size_text_<?php echo $value["m_size_guid"]?>" name="size_text_<?php echo $value["m_size_guid"]?>" />
                     </td>
                 <td>
                     <button class="btn btn-info btn-sm cssdelete"  m_size_guid="<?php echo $value["m_size_guid"]?>" type="button" >Xóa</button>
@@ -26,6 +39,14 @@
         </tbody></table> <input class="btn btn-danger btn-lg" name="bsubmit" value=" Lưu " type="submit" />
 </div>
 </form>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</section>
+
 <script src="http://120.72.106.146:66/themes/user-templete/js/jquery.min.js"></script>
 <script>
     $(document).ready(function()

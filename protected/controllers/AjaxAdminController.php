@@ -65,6 +65,57 @@ class AjaxadminController extends CController {
 
         }
     }
+	public function actionUploadImagetrangchu() {
+define("image_folder","item_image/trangchu/");
+if( isset($_POST['bsubmit']) && isset($_FILES["uploaded_image2"]["name"]) && ($_FILES["uploaded_image2"]["name"]!="") ) {
+				    $strResult = $this->checkImageFile("uploaded_image2");
+					if($strResult !=""){
+						echo $strResult;exit();
+					}
+					  $image1 = new SimpleImage();
+					  
+					  $image1->load($_FILES['uploaded_image2']['tmp_name']);
+					  $image1->save(image_folder.'hinhtrangchubenphai.jpg');
+					 // $queryIn ="update trangchu set hinh_dai_dien='hinhtrangchubenphai.jpg' where san_pham_guid='1'"
+					   //CommonDB::runSQL($queryIn,$hsTable);
+			   }
+        if( isset($_POST['bsubmit']) && isset($_FILES["uploaded_image"]["name"]) && ($_FILES["uploaded_image"]["name"]!="") ) {
+            $strResult = $this->checkImageFile("uploaded_image");
+            if($strResult !=""){
+                echo $strResult;exit();
+
+            }
+			   
+            $guid_id_insert = Common::guid();
+            $image = new SimpleImage();
+            $guid_id=$_REQUEST["san_pham_guid"];
+            $colorId=$_REQUEST["color_id"];
+            $image->load($_FILES['uploaded_image']['tmp_name']);
+            $imageName ='trangchu_'.$guid_id.date('m_d_Y_hisa').'.jpg';
+            $imageNameicon_="icon_".$imageName;
+            
+            $image->save(image_folder.$imageName);
+
+//            $image->resizeToWidth(1024); $image->save('1024picture2.jpg');
+//            $image->maxarea(450,450); $image->save('450450picture2.jpg');
+
+            $image->resizeToWidth(133);
+            $image->save(image_folder.$imageNameicon_);
+            $queryIn="insert into trangchuhinh(san_pham_hinh_guid,san_pham_guid,image1,so_thu_tu,tooltip,is_daidien,color_guid_id)
+             values(:san_pham_hinh_guid,:san_pham_guid,:image1,:so_thu_tu,:tooltip,:is_daidien,:color_guid_id)";
+            $hsTable["san_pham_hinh_guid"]=$guid_id_insert;
+            $hsTable["san_pham_guid"]=$guid_id;
+            $hsTable["image1"]=$imageName;
+            $hsTable["so_thu_tu"]='0';
+            $hsTable["tooltip"]='';
+            $hsTable["is_daidien"]='0';
+            $hsTable["color_guid_id"]=$colorId ;
+           CommonDB::runSQL($queryIn,$hsTable);
+            // $image->output();
+            //$image->scale(50);
+
+        }
+    }
     public function actionSanphamedit() {
 
         if( isset($_POST['bsubmit'])) {
@@ -140,6 +191,24 @@ class AjaxadminController extends CController {
         CommonDB::runSQL($query,[]);
         echo "ok";
     }
+	public function actionDeleteimagetrangchu() {
+
+        //deleteimage&guid_id="+guid_id +"&imagename="+imagename
+        $guid_id=$_REQUEST["guid_id"];
+        $imagename=$_REQUEST["imagename"];
+
+        $file= $_SERVER['DOCUMENT_ROOT']."/item_image/".$imagename;
+        if (file_exists($file)) {
+            unlink( $file);
+        }
+        $file= $_SERVER['DOCUMENT_ROOT']."/item_image/"."icon_".$imagename;
+        if (file_exists($file)) {
+            unlink( $file);
+        }
+        $query = "delete from trangchuhinh where san_pham_hinh_guid='".$guid_id."' ";
+        CommonDB::runSQL($query,[]);
+
+    }
     public function actionDeleteimage() {
 
         //deleteimage&guid_id="+guid_id +"&imagename="+imagename
@@ -158,7 +227,16 @@ class AjaxadminController extends CController {
         CommonDB::runSQL($query,[]);
 
     }
+    public function actionHinhtrangchulist() {
 
+        $san_pham_guid=$_REQUEST["san_pham_guid"];
+        $colorId=$_REQUEST["color_id"];
+        $query="Select * from trangchuhinh where color_guid_id='$colorId' and san_pham_guid='$san_pham_guid'";
+        $data = CommonDB::GetAll($query,[]);
+        $this->render('hinhtrangchulist',array('data'=>$data));
+
+
+    }
     public function actionListImage() {
 
         $san_pham_guid=$_REQUEST["san_pham_guid"];
@@ -170,34 +248,29 @@ class AjaxadminController extends CController {
 
     }
     public function actionColorUpdateList() {
-        $timer = new ClassTimer();
 
-        $timer->start();
-
-
+        Yii::app()->theme = 'admin-green';
+        $this->pageTitle = 'Danh sách màu sắc';
         if(isset($_REQUEST["add"])){
             $colorId = CommonDB::guid();
             $query="insert into m_color(color_id) values('$colorId')";
            CommonDB::runSQL($query,[]);
-
+            $this->redirect("index.php?r=ajaxadmin/colorupdatelist");
+            return;
         }
         if( isset($_POST['bsubmit'])) {
             $this->colorUpdateList();
         }
         $query="Select * from m_color order by date_create";
         $data = CommonDB::GetAll($query,[]);
-        $mydb = new MyDb();
-        $timer->stop();
-        echo $timer->result().'xxxxx';
-        $timer->start();
-       // $mydb->connect();
-        $mydb->query($query);
-        $timer->stop();
-        echo $timer->result();
+
+
+
         $this->render('colorupdatelist',array('data'=>$data));
     }
 	
     public function colorUpdateList() {
+
         $i=0;
         $list =[];
         $forbiddenword = 'color_name_';
@@ -217,16 +290,15 @@ class AjaxadminController extends CController {
         }
     }
 	public function actionSizeList() {
-        $timer = new ClassTimer();
 
-        $timer->start();
-
-
+        Yii::app()->theme = 'admin-green';
+        $this->pageTitle = 'Danh sách kích thước';
         if(isset($_REQUEST["add"])){
             $guidId = CommonDB::guid();
             $query="insert into m_size(m_size_guid) values('$guidId')";
            CommonDB::runSQL($query,[]);
-
+            $this->redirect("index.php?r=ajaxadmin/sizelist");
+            return;
         }
         if( isset($_POST['bsubmit'])) {
             $this->sizeUpdateList();
@@ -234,13 +306,10 @@ class AjaxadminController extends CController {
         $query="Select * from m_size order by date_create";
         $data = CommonDB::GetAll($query,[]);
         //$mydb = new MyDb();
-        $timer->stop();
-        echo $timer->result().'xxxxx';
-        $timer->start();
+      
        // $mydb->connect();
         //$mydb->query($query);
-        $timer->stop();
-        echo $timer->result();
+       
         $this->render('sizelist',array('data'=>$data));
     }
 	 public function sizeUpdateList() {
@@ -255,7 +324,7 @@ class AjaxadminController extends CController {
                     $list[$i]=$guid_id;
                     $i++;
                     $query="update m_size set size_text=:size_text where m_size_guid=:m_size_guid";
-                    $hs["size_text"]=$_REQUEST["size_text".$guid_id];
+                    $hs["size_text"]=$_REQUEST["size_text_".$guid_id];
                     $hs["m_size_guid"]=$guid_id;
                     CommonDB::runSQL($query,$hs);
                 }
@@ -264,7 +333,7 @@ class AjaxadminController extends CController {
     }
 	public function actionSizeDelete() {
         $m_size_guid = $_REQUEST["m_size_guid"];
-        $query=" delete from m_color  where m_size_guid=:m_size_guid ";
+        $query=" delete from m_size  where m_size_guid=:m_size_guid ";
         $hs["m_size_guid"]=$m_size_guid;
         CommonDB::runSQL($query,$hs);
         echo "1";

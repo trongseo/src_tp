@@ -19,13 +19,11 @@
                 <input type="hidden" value="<?php echo $hsTable["aaachung_guid"] ?>" id="aaachung_guid" name="aaachung_guid" />
                     <div class='box-body pad'>
 
-                            <textarea id="mo_ta_dai" name="mo_ta_dai" rows="10" cols="80">
-                                <?php echo $hsTable["mo_ta_dai"] ?>
-                            </textarea>
+                            <textarea id="mo_ta_dai" name="mo_ta_dai" rows="10" cols="80"><?php echo $hsTable["mo_ta_dai"] ?></textarea>
 
                     </div></div>
                     <div class="form-group" style="padding: 6px 12px">
-                        <input class="btn btn-danger btn-lg" name="bsubmit"  id="bsubmit"  value=" Lưu " type="submit" />
+                        <input class="btn btn-danger btn-lg" name="bsubmit"  id="bsubmit"  value=" Lưu " type="submit" /><br/><?php echo $hsTable["hint"] ?>
 <!--                     <input class="btn btn-primary btn-lg btncancel" name="btncancel" value=" Quay về " type="button" />-->
 <!--                        <input class="btn btn-primary btn-lg .btnaddcolor" name="btnaddcolor" value=" Thêm màu sắc " type="button" />-->
 <!--                        <input class="btn btn-primary btn-lg .btnprice" name="btnprice" value=" Cập nhật giá " type="button" />-->
@@ -57,6 +55,8 @@
 </script>
 <script type="text/javascript" src="tinymce/js/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
+var isno='<?php echo isset($_REQUEST["is_no"])?>';
+if(isno=='')
     tinymce.init({
         selector: "textarea",
         plugins: [

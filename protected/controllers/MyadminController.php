@@ -17,6 +17,14 @@ class MyadminController extends CController {
         $ma_sp = CommonDB::GetDataRowKeyGuid("san_pham",$san_pham_guid)["ma_sp"];
         $this->render('hinhsanpham',array('ma_sp'=>$ma_sp,'dataColor'=>$dataColor,'san_pham_guid'=>$san_pham_guid));
     }
+	    public function actionHinhtrangchu() {
+
+        $this->pageTitle = "Up hình trang chủ ";
+        $trangchu = CommonDB::GetAll("Select * from trangchu where san_pham_guid='1' ",[]);
+        $san_pham_guid = "1";//$_REQUEST["san_pham_guid"];
+        $hinh_dai_dien = $trangchu[0]["hinh_dai_dien"];
+        $this->render('trangchuhinh',array('hinh_dai_dien'=>$hinh_dai_dien,'dataColor'=>'','san_pham_guid'=>$san_pham_guid));
+    }
     public function actionSanphamedit() {
         $hsTable["san_pham_guid"]="";
         $hsTable["ma_sp"]="";

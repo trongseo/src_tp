@@ -15,3 +15,8 @@ if ($mode == 'public') {
 
 require_once($yii);
 Yii::createWebApplication($config)->run();
+require_once('counter/conn.php');
+require_once('counter/counter.php');
+$mypage = isset($_REQUEST["r"])?$_REQUEST["r"]:"default";
+updateCounter($mypage); // Updates page hits
+updateInfo(); // Updates hit info

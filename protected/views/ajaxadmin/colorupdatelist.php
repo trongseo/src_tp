@@ -1,3 +1,15 @@
+<section class="content-header">
+    <h1>
+        <?php echo $this->pageTitle; ?>
+
+    </h1>
+
+</section>
+<section class="content  bordertop">
+    <div class="row">
+        <div class="col-md-6" style="width: 80%">
+            <a href="index.php?r=ajaxadmin/colorupdatelist&add=1"> <b>Thêm mới </b></a>
+            <div class="panel panel-default">
 <form id="myForm" action="index.php?r=ajaxadmin/colorupdatelist" method="post" enctype="multipart/form-data">
 <div class="box-body">
     <table class="table table-bordered">
@@ -26,6 +38,13 @@
         </tbody></table> <input class="btn btn-danger btn-lg" name="bsubmit" value=" Lưu " type="submit" />
 </div>
 </form>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+</section>
 <script src="http://120.72.106.146:66/themes/user-templete/js/jquery.min.js"></script>
 <script>
     $(document).ready(function()
